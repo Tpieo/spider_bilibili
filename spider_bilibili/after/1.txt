@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html>
+
+<head itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta name="spm_prefix" content="333.788">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <script
+        type="text/javascript">window.webAbTest = { "webplayer": "6", "play_continuously": "0", "autoplay_optimize": "0", "pc_player_autoplay_switch_reset": "1" }</script>
+    <title data-vue-meta="true">《Python应用基础》微专业体验课——Python 面向对象语法精讲_哔哩哔哩_bilibili</title>
+    <meta data-vue-meta="true" name="renderer" content="webkit">
+    <meta data-vue-meta="true" http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta data-vue-meta="true" itemprop="keywords" name="keywords"
+        content="《Python应用基础》微专业体验课——Python 面向对象语法精讲,编程,公开课,PYTHON,零基础,学习,PYTHON入门,知识,校园学习,哔哩哔哩,Bilibili,B站,弹幕">
+    <meta data-vue-meta="true" itemprop="description" name="description"
+        content="https://mooc.study.163.com/course/2001361005?tid=2403008003&amp;amp;_trace_c_p_k2_=b4db829f6abb456cb0e351f70c05298e#/info搬运网易云北理嵩天老师免费体验课程，为方便学习。如有侵权，立删！">
+    <meta data-vue-meta="true" itemprop="author" name="author" content="一个90后半撅儿">
+    <meta data-vue-meta="true" itemprop="name" name="title" content="《Python应用基础》微专业体验课——Python 面向对象语法精讲_哔哩哔哩_bilibili">
+    <meta data-vue-meta="true" itemprop="url" content="https://www.bilibili.com/video/BV1M54y1d7UB/">
+    <meta data-vue-meta="true" itemprop="image"
+        content="http://i2.hdslb.com/bfs/archive/f5684768f5b12a3bf568fadc590217707b9efc03.jpg">
+    <meta data-vue-meta="true" itemprop="thumbnailUrl"
+        content="http://i2.hdslb.com/bfs/archive/f5684768f5b12a3bf568fadc590217707b9efc03.jpg">
+    <meta data-vue-meta="true" itemprop="uploadDate" content="2020-04-02 17:08:13">
+    <meta data-vue-meta="true" itemprop="datePublished" content="2020-04-02 17:08:13">
+    <meta data-vue-meta="true" property="og:type" content="video">
+    <meta data-vue-meta="true" property="og:title" content="《Python应用基础》微专业体验课——Python 面向对象语法精讲_哔哩哔哩_bilibili">
+    <meta data-vue-meta="true" property="og:image"
+        content="http://i2.hdslb.com/bfs/archive/f5684768f5b12a3bf568fadc590217707b9efc03.jpg">
+    <meta data-vue-meta="true" property="og:url" content="https://www.bilibili.com/video/BV1M54y1d7UB/">
+    <meta data-vue-meta="true" property="og:width" content="846">
+    <meta data-vue-meta="true" property="og:height" content="566">
+    <link data-vue-meta="true" rel="canonical" href="https://www.bilibili.com/video/BV1M54y1d7UB/">
+    <link data-vue-meta="true" rel="apple-touch-icon"
+        href="http://i2.hdslb.com/bfs/archive/f5684768f5b12a3bf568fadc590217707b9efc03.jpg@57w_57h_1c.png">
+    <script
+        type="text/javascript">function reportFistAdFs() { 1 < window.SPACount || window.performance && window.performance.timing && (window.spmReportData.reco_components_loaded = { first_slide_ad_img: (new Date).getTime() - window.performance.timing.navigationStart }) } !function () { var o = window.navigator.userAgent, i = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPod"], n = !0; if (!/\sVR\s/g.test(o)) { for (var e = 0, w = i.length; e < w; e++)if (0 < o.indexOf(i[e])) { n = !1; break } if (!n) { var r = window.location.origin.replace("www", "m") + "/video/" + window.location.href.match(/(av[0-9]+)|bv1\w+/g)[0] + window.location.search; window.location.href = r } } }(), window.spmReportData = {}, window.reportConfig = { sample: 1, scrollTracker: !0, msgObjects: "spmReportData", errorTracker: !0 }, window.webAbTest && (window.abtest = window.webAbTest)</script>
+    <!-- bvid 已全量开启 暂不需要 -->
+    <!-- <script type="text/javascript" src="//s1.hdslb.com/bfs/seed/jinkela/short/config/biliconfig.js"></script> -->
+    <style>
+        .ie-fix {
+            background: #fff;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999999
+        }
+
+        .ie-fix .title {
+            background: #00a1d6;
+            text-align: center;
+            padding: 10px 0;
+            color: #fff
+        }
+    </style>
+    <style id="setSizeStyle"></style>
+    <script
+        type="text/javascript">function getIEVersion() { var e = 99; if ("Microsoft Internet Explorer" == navigator.appName) { var i = navigator.userAgent; null != new RegExp("MSIE ([0-9]{1,}[.0-9]{0,})").exec(i) && (e = parseFloat(RegExp.$1)) } return e } function getCookie(e) { var i = new RegExp("(^| )" + e + "=([^;]*)(;|$)"), n = document.cookie.match(i); return n ? unescape(n[2]) : null } getIEVersion() <= 9 && (document.body.innerHTML = "<div class='ie-fix'><div class='title'>为了保障你的账号安全和最佳预览体验，播放页已不支持IE9及以下IE版本浏览器访问，建议你使用Chrome等高级浏览器或升级到IE最新版本浏览器。</div></div>"), window.hasBlackSide = Boolean(parseInt(getCookie("blackside_state"))); var setSizeStyle = document.getElementById("setSizeStyle"); function setSize() { var e = window.isWide, i = 350, n = window.innerHeight; w = window.innerWidth, w1 = parseInt(16 * (.743 * n - 108.7) / 9), w2 = w - 152 - i, min = w1 > w2 ? w2 : w1, min < 638 && (min = 638), 1630 < min && (min = 1630); var t, o = min + i; t = window.hasBlackSide && !window.isWide ? Math.round((min - 14 + (e ? i : 0)) * (9 / 16) + 46) + 96 : Math.round((min + (e ? i : 0)) * (9 / 16)) + 46; var a = function (e, i) { for (var n = e + " {", t = Object.keys(i), o = 0; o < t.length; o++)n += t[o] + ": " + i[t[o]] + ";"; return n + "}\n" }, r = a(".v-wrap", { width: o + "px", padding: "0 68px" }) + a(".l-con", { width: o - i + "px" }) + a("#bilibili-player", { width: o - (e ? 0 : i) + "px", height: t + "px", position: e ? "relative" : "static" }) + a("#danmukuBox", { "margin-top": e ? t + 28 + "px" : "0" }) + a("#playerWrap", { height: e ? t - 0 + "px" : "auto" }); setSizeStyle.innerHTML = r } setSize(), window.addEventListener("resize", function () { setSize() }), window.PlayerAgent = { player_widewin: function () { window.scrollTo(0, 55), window.isWide = !0, setSize() }, player_fullwin: function (e) { window.scrollTo(0, 0), window.isWide = !1, setSize() }, toggleBlackSide: function (e) { window.hasBlackSide = e, setSize() } }</script>
+    <script type='text/javascript' src='//s1.hdslb.com/bfs/static/player/main/video.c0c6dde6.js?v=20201013'></script>
+    <script>window.__playinfo__ = { "code": 0, "message": "0", "ttl": 1, "data": { "from": "local", "result": "suee", "message": "", "quality": 64, "format": "flv720", "timelength": 44960, "accept_format": "flv720,flv480,mp4", "accept_description": ["高清 720P", "清晰 480P", "流畅 360P"], "accept_quality": [64, 32, 16], "video_codecid": 7, "seek_param": "start", "seek_type": "offset", "dash": { "duration": 45, "minBufferTime": 1.5, "min_buffer_time": 1.5, "video": [{ "id": 64, "baseUrl": "https://upos-sz-mirrorkodo.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30064.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=9441903abc3eb6462b76e8174d5f165e&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=0,3&agrr=1&logo=80000000", "base_url": "https://upos-sz-mirrorkodo.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30064.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=9441903abc3eb6462b76e8174d5f165e&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=0,3&agrr=1&logo=80000000", "backupUrl": ["https://upos-sz-mirrorkodo.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30064.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=9441903abc3eb6462b76e8174d5f165e&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=1,3&agrr=1&logo=40000000", "https://upos-sz-mirrorkodob.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30064.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=56713f187f1f3a107e900ee9da31eba1&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=2,3&agrr=1&logo=40000000"], "backup_url": ["https://upos-sz-mirrorkodo.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30064.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=9441903abc3eb6462b76e8174d5f165e&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=1,3&agrr=1&logo=40000000", "https://upos-sz-mirrorkodob.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30064.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=56713f187f1f3a107e900ee9da31eba1&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=2,3&agrr=1&logo=40000000"], "bandwidth": 252664, "mimeType": "video/mp4", "mime_type": "video/mp4", "codecs": "avc1.64001F", "width": 960, "height": 540, "frameRate": "25", "frame_rate": "25", "sar": "1:1", "startWithSap": 1, "start_with_sap": 1, "SegmentBase": { "Initialization": "0-991", "indexRange": "992-1131" }, "segment_base": { "initialization": "0-991", "index_range": "992-1131" }, "codecid": 7 }, { "id": 32, "baseUrl": "https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30032.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=0f7ee064c0b7214fcc1a10609b66839f&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=0,3&agrr=1&logo=80000000", "base_url": "https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30032.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=0f7ee064c0b7214fcc1a10609b66839f&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=0,3&agrr=1&logo=80000000", "backupUrl": ["https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30032.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=0f7ee064c0b7214fcc1a10609b66839f&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=1,3&agrr=1&logo=40000000", "https://upos-sz-mirrorcosb.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30032.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=9b20267c01255269a26ae86cc50fc148&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=2,3&agrr=1&logo=40000000"], "backup_url": ["https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30032.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=0f7ee064c0b7214fcc1a10609b66839f&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=1,3&agrr=1&logo=40000000", "https://upos-sz-mirrorcosb.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30032.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=9b20267c01255269a26ae86cc50fc148&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=2,3&agrr=1&logo=40000000"], "bandwidth": 229439, "mimeType": "video/mp4", "mime_type": "video/mp4", "codecs": "avc1.64001E", "width": 852, "height": 480, "frameRate": "25", "frame_rate": "25", "sar": "640:639", "startWithSap": 1, "start_with_sap": 1, "SegmentBase": { "Initialization": "0-995", "indexRange": "996-1135" }, "segment_base": { "initialization": "0-995", "index_range": "996-1135" }, "codecid": 7 }, { "id": 16, "baseUrl": "https://upos-sz-mirrorkodo.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30016.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=abcdde58da8086da0bce91fb851d8cd3&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=0,3&agrr=1&logo=80000000", "base_url": "https://upos-sz-mirrorkodo.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30016.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=abcdde58da8086da0bce91fb851d8cd3&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=0,3&agrr=1&logo=80000000", "backupUrl": ["https://upos-sz-mirrorkodo.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30016.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=abcdde58da8086da0bce91fb851d8cd3&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=1,3&agrr=1&logo=40000000", "https://upos-sz-mirrorkodob.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30016.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=a879666a564665557cd37e2586fad9ba&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=2,3&agrr=1&logo=40000000"], "backup_url": ["https://upos-sz-mirrorkodo.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30016.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=abcdde58da8086da0bce91fb851d8cd3&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=1,3&agrr=1&logo=40000000", "https://upos-sz-mirrorkodob.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30016.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=a879666a564665557cd37e2586fad9ba&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=2,3&agrr=1&logo=40000000"], "bandwidth": 154187, "mimeType": "video/mp4", "mime_type": "video/mp4", "codecs": "avc1.64001E", "width": 640, "height": 360, "frameRate": "25", "frame_rate": "25", "sar": "1:1", "startWithSap": 1, "start_with_sap": 1, "SegmentBase": { "Initialization": "0-1014", "indexRange": "1015-1154" }, "segment_base": { "initialization": "0-1014", "index_range": "1015-1154" }, "codecid": 7 }], "audio": [{ "id": 30280, "baseUrl": "https://upos-sz-mirrorkodo.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30280.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=ca88c8ab492207b41eacce1a64d7a17f&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=0,3&agrr=1&logo=80000000", "base_url": "https://upos-sz-mirrorkodo.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30280.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=ca88c8ab492207b41eacce1a64d7a17f&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=0,3&agrr=1&logo=80000000", "backupUrl": ["https://upos-sz-mirrorkodo.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30280.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=ca88c8ab492207b41eacce1a64d7a17f&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=1,3&agrr=1&logo=40000000", "https://upos-sz-mirrorkodob.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30280.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=90e1476315892dce0d2a3822bd9dfc1e&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=2,3&agrr=1&logo=40000000"], "backup_url": ["https://upos-sz-mirrorkodo.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30280.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=ca88c8ab492207b41eacce1a64d7a17f&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=1,3&agrr=1&logo=40000000", "https://upos-sz-mirrorkodob.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30280.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=kodobbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=90e1476315892dce0d2a3822bd9dfc1e&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=2,3&agrr=1&logo=40000000"], "bandwidth": 124593, "mimeType": "audio/mp4", "mime_type": "audio/mp4", "codecs": "mp4a.40.2", "width": 0, "height": 0, "frameRate": "", "frame_rate": "", "sar": "", "startWithSap": 0, "start_with_sap": 0, "SegmentBase": { "Initialization": "0-919", "indexRange": "920-1059" }, "segment_base": { "initialization": "0-919", "index_range": "920-1059" }, "codecid": 0 }, { "id": 30216, "baseUrl": "https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30216.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=8c61020c75deb8403d5ade357232d50e&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=0,3&agrr=1&logo=80000000", "base_url": "https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30216.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=8c61020c75deb8403d5ade357232d50e&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=0,3&agrr=1&logo=80000000", "backupUrl": ["https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30216.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=8c61020c75deb8403d5ade357232d50e&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=1,3&agrr=1&logo=40000000", "https://upos-sz-mirrorcosb.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30216.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=dd9b80b8f9ceff1cef5979e0828033f2&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=2,3&agrr=1&logo=40000000"], "backup_url": ["https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30216.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=8c61020c75deb8403d5ade357232d50e&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=1,3&agrr=1&logo=40000000", "https://upos-sz-mirrorcosb.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30216.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=dd9b80b8f9ceff1cef5979e0828033f2&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=2,3&agrr=1&logo=40000000"], "bandwidth": 67797, "mimeType": "audio/mp4", "mime_type": "audio/mp4", "codecs": "mp4a.40.2", "width": 0, "height": 0, "frameRate": "", "frame_rate": "", "sar": "", "startWithSap": 0, "start_with_sap": 0, "SegmentBase": { "Initialization": "0-942", "indexRange": "943-1082" }, "segment_base": { "initialization": "0-942", "index_range": "943-1082" }, "codecid": 0 }, { "id": 30232, "baseUrl": "https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30232.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=d6f45a323ad61bd764aef08b817e24ff&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=0,3&agrr=1&logo=80000000", "base_url": "https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30232.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=d6f45a323ad61bd764aef08b817e24ff&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=0,3&agrr=1&logo=80000000", "backupUrl": ["https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30232.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=d6f45a323ad61bd764aef08b817e24ff&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=1,3&agrr=1&logo=40000000", "https://upos-sz-mirrorcosb.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30232.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=fc75e259ed72d635c496676a17596109&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=2,3&agrr=1&logo=40000000"], "backup_url": ["https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30232.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=d6f45a323ad61bd764aef08b817e24ff&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=1,3&agrr=1&logo=40000000", "https://upos-sz-mirrorcosb.bilivideo.com/upgcxcode/71/05/172940571/172940571-1-30232.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1623518346&gen=playurlv2&os=cosbbv&oi=3658557455&trid=518c227682a748faaf3364e4ed2ea3f3u&platform=pc&upsig=fc75e259ed72d635c496676a17596109&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=108369482&bvc=vod&orderid=2,3&agrr=1&logo=40000000"], "bandwidth": 124593, "mimeType": "audio/mp4", "mime_type": "audio/mp4", "codecs": "mp4a.40.2", "width": 0, "height": 0, "frameRate": "", "frame_rate": "", "sar": "", "startWithSap": 0, "start_with_sap": 0, "SegmentBase": { "Initialization": "0-919", "indexRange": "920-1059" }, "segment_base": { "initialization": "0-919", "index_range": "920-1059" }, "codecid": 0 }] }, "support_formats": [{ "quality": 64, "format": "flv720", "new_description": "720P 高清", "display_desc": "720P", "superscript": "" }, { "quality": 32, "format": "flv480", "new_description": "480P 清晰", "display_desc": "480P", "superscript": "" }, { "quality": 16, "format": "mp4", "new_description": "360P 流畅", "display_desc": "360P", "superscript": "" }], "high_format": null }, "session": "35df0eab967282b2d32677080e04a7bf" }</script>
+    <script>window.__INITIAL_STATE__ = { "aid": 840097344, "bvid": "BV1M54y1d7UB", "p": 62, "episode": "", "videoData": { "bvid": "BV1M54y1d7UB", "aid": 840097344, "videos": 62, "tid": 208, "tname": "校园学习", "copyright": 2, "pic": "http:\u002F\u002Fi2.hdslb.com\u002Fbfs\u002Farchive\u002Ff5684768f5b12a3bf568fadc590217707b9efc03.jpg", "title": "《Python应用基础》微专业体验课——Python 面向对象语法精讲", "pubdate": 1585818493, "ctime": 1585818493, "desc": "https:\u002F\u002Fmooc.study.163.com\u002Fcourse\u002F2001361005?tid=2403008003&amp;_trace_c_p_k2_=b4db829f6abb456cb0e351f70c05298e#\u002Finfo\n搬运网易云北理嵩天老师免费体验课程，为方便学习。\n如有侵权，立删！", "desc_v2": [{ "raw_text": "https:\u002F\u002Fmooc.study.163.com\u002Fcourse\u002F2001361005?tid=2403008003&_trace_c_p_k2_=b4db829f6abb456cb0e351f70c05298e#\u002Finfo\n搬运网易云北理嵩天老师免费体验课程，为方便学习。\n如有侵权，立删！", "type": 1, "biz_id": 0 }], "state": 0, "duration": 16571, "rights": { "bp": 0, "elec": 0, "download": 1, "movie": 0, "pay": 0, "hd5": 0, "no_reprint": 0, "autoplay": 1, "ugc_pay": 0, "is_cooperation": 0, "ugc_pay_preview": 0, "no_background": 0, "clean_mode": 0, "is_stein_gate": 0 }, "owner": { "mid": 272707023, "name": "一个90后半撅儿", "face": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Fface\u002F1c2dab1a7bb545098ff00d2871e8f02a2f10de91.jpg" }, "stat": { "aid": 840097344, "view": 5534, "danmaku": 5, "reply": 15, "favorite": 467, "coin": 24, "share": 24, "now_rank": 0, "his_rank": 0, "like": 68, "dislike": 0, "evaluation": "", "argue_msg": "", "viewseo": 5534 }, "dynamic": "#PYTHON##编程##PYTHON开发#", "cid": 172930902, "dimension": { "width": 960, "height": 540, "rotate": 0 }, "no_cache": false, "pages": [{ "cid": 172930902, "page": 1, "from": "vupload", "part": "1.课程基本情况1", "duration": 309, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172932309, "page": 2, "from": "vupload", "part": "1.0 第一周内容导学", "duration": 178, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172932611, "page": 3, "from": "vupload", "part": "1.1 面向对象编程模式1", "duration": 55, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172932727, "page": 4, "from": "vupload", "part": "1.1 面向对象编程模式2", "duration": 186, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172932822, "page": 5, "from": "vupload", "part": "1.1 面向对象编程模式3", "duration": 442, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172933184, "page": 6, "from": "vupload", "part": "1.1 面向对象编程模式4", "duration": 259, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172933263, "page": 7, "from": "vupload", "part": "1.1 面向对象编程模式5", "duration": 318, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172933362, "page": 8, "from": "vupload", "part": "1.1 面向对象编程模式6", "duration": 233, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172933450, "page": 9, "from": "vupload", "part": "1.1 面向对象编程模式7", "duration": 95, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172933515, "page": 10, "from": "vupload", "part": "1.2 Python 类的构建1", "duration": 99, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172933559, "page": 11, "from": "vupload", "part": "1.2 Python 类的构建2", "duration": 625, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172933798, "page": 12, "from": "vupload", "part": "1.2 Python 类的构建3", "duration": 304, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172933959, "page": 13, "from": "vupload", "part": "1.2 Python 类的构建4", "duration": 421, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172934110, "page": 14, "from": "vupload", "part": "1.2 Python 类的构建5", "duration": 1278, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172934575, "page": 15, "from": "vupload", "part": "1.2 Python 类的构建6", "duration": 685, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172934892, "page": 16, "from": "vupload", "part": "1.2 Python 类的构建7", "duration": 178, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172934987, "page": 17, "from": "vupload", "part": "1.3 实例1：银行ATM等待时间2", "duration": 950, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172935355, "page": 18, "from": "vupload", "part": "1.3 实例1：银行ATM等待时间分析1", "duration": 168, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172935465, "page": 19, "from": "vupload", "part": "1.4 Python 类的封装1", "duration": 42, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172935484, "page": 20, "from": "vupload", "part": "1.4 Python 类的封装2", "duration": 163, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172935548, "page": 21, "from": "vupload", "part": "1.4 Python 类的封装3", "duration": 551, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172935744, "page": 22, "from": "vupload", "part": "1.4 Python 类的封装4", "duration": 170, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172935808, "page": 23, "from": "vupload", "part": "1.4 Python 类的封装5", "duration": 287, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172935900, "page": 24, "from": "vupload", "part": "1.4 Python 类的封装6", "duration": 358, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172936021, "page": 25, "from": "vupload", "part": "1.4 Python 类的封装7", "duration": 78, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172936043, "page": 26, "from": "vupload", "part": "1.5 Python 类的继承1", "duration": 41, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172936055, "page": 27, "from": "vupload", "part": "1.5 Python 类的继承2", "duration": 208, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172936167, "page": 28, "from": "vupload", "part": "1.5 Python 类的继承3", "duration": 294, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172936282, "page": 29, "from": "vupload", "part": "1.5 Python 类的继承4", "duration": 437, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172936408, "page": 30, "from": "vupload", "part": "1.5 Python 类的继承5", "duration": 283, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172936536, "page": 31, "from": "vupload", "part": "1.5 Python 类的继承6", "duration": 299, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172936668, "page": 32, "from": "vupload", "part": "1.5 Python 类的继承7", "duration": 296, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172936765, "page": 33, "from": "vupload", "part": "1.5 Python 类的继承8", "duration": 75, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172936812, "page": 34, "from": "vupload", "part": "1.6 实践1：一小时类构建操作实践", "duration": 43, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172936839, "page": 35, "from": "vupload", "part": "2.0 第二周内容导学", "duration": 185, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172936933, "page": 36, "from": "vupload", "part": "2.1 Python类的运算1", "duration": 32, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172936952, "page": 37, "from": "vupload", "part": "2.1 Python类的运算2", "duration": 165, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172937021, "page": 38, "from": "vupload", "part": "2.1 Python类的运算3", "duration": 305, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172937128, "page": 39, "from": "vupload", "part": "2.1 Python类的运算4", "duration": 169, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172937180, "page": 40, "from": "vupload", "part": "2.1 Python类的运算5", "duration": 291, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172937286, "page": 41, "from": "vupload", "part": "2.1 Python类的运算6", "duration": 184, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172937348, "page": 42, "from": "vupload", "part": "2.1 Python类的运算7", "duration": 75, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172937387, "page": 43, "from": "vupload", "part": "2.2 Python类的多态1", "duration": 45, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172937408, "page": 44, "from": "vupload", "part": "2.2 Python类的多态2", "duration": 129, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172937465, "page": 45, "from": "vupload", "part": "2.2 Python类的多态3", "duration": 229, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172937576, "page": 46, "from": "vupload", "part": "2.2 Python类的多态4", "duration": 107, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172937616, "page": 47, "from": "vupload", "part": "2.2 Python类的多态5", "duration": 60, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172937684, "page": 48, "from": "vupload", "part": "2.3 实例 2：图像的四则运算1", "duration": 221, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172937796, "page": 49, "from": "vupload", "part": "2.3 实例 2：图像的四则运算2", "duration": 487, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172937953, "page": 50, "from": "vupload", "part": "2.4 Python对象的引用1", "duration": 34, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172937968, "page": 51, "from": "vupload", "part": "2.4 Python对象的引用2", "duration": 902, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172938774, "page": 52, "from": "vupload", "part": "2.4 Python对象的引用3", "duration": 536, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172939378, "page": 53, "from": "vupload", "part": "2.4 Python对象的引用4", "duration": 185, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172939507, "page": 54, "from": "vupload", "part": "2.4 Python对象的引用5", "duration": 64, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172939577, "page": 55, "from": "vupload", "part": "2.5 Python类的高级话题1", "duration": 55, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172939621, "page": 56, "from": "vupload", "part": "2.5 Python类的高级话题2", "duration": 323, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172939810, "page": 57, "from": "vupload", "part": "2.5 Python类的高级话题3", "duration": 259, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172940015, "page": 58, "from": "vupload", "part": "2.5 Python类的高级话题4", "duration": 221, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172940212, "page": 59, "from": "vupload", "part": "2.5 Python类的高级话题5", "duration": 600, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172940426, "page": 60, "from": "vupload", "part": "2.5 Python类的高级话题6", "duration": 158, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172940519, "page": 61, "from": "vupload", "part": "2.5 Python类的高级话题7", "duration": 97, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }, { "cid": 172940571, "page": 62, "from": "vupload", "part": "2.6 实践2：一小时类运算操作实践", "duration": 45, "vid": "", "weblink": "", "dimension": { "width": 960, "height": 540, "rotate": 0 } }], "subtitle": { "allow_submit": false, "list": [] }, "user_garb": { "url_image_ani_cut": "" }, "embedPlayer": "EmbedPlayer(\"player\", \"\u002F\u002Fs1.hdslb.com\u002Fbfs\u002Fstatic\u002Fplayer\u002Fmain\u002Fflash\u002Fplay.swf\", \"cid=172940571&aid=840097344&attribute=undefined&bvid=BV1M54y1d7UB&show_bv=1\")" }, "upData": { "mid": "272707023", "name": "一个90后半撅儿", "approve": false, "sex": "保密", "rank": "10000", "face": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Fface\u002F1c2dab1a7bb545098ff00d2871e8f02a2f10de91.jpg", "DisplayRank": "0", "regtime": 0, "spacesta": 0, "birthday": "", "place": "", "description": "", "article": 0, "attentions": [], "fans": 3835, "friend": 50, "attention": 50, "sign": "A little effort every day, you will make a big differfence.", "level_info": { "current_level": 4, "current_min": 0, "current_exp": 0, "next_exp": 0 }, "pendant": { "pid": 0, "name": "", "image": "", "expire": 0, "image_enhance": "", "image_enhance_frame": "" }, "nameplate": { "nid": 0, "name": "", "image": "", "image_small": "", "level": "", "condition": "" }, "Official": { "role": 0, "title": "", "desc": "", "type": -1 }, "official_verify": { "type": -1, "desc": "" }, "vip": { "type": 0, "status": 0, "due_date": 0, "vip_pay_type": 0, "theme_type": 0, "label": { "path": "", "text": "", "label_theme": "", "text_color": "", "bg_style": 0, "bg_color": "", "border_color": "" }, "avatar_subscript": 0, "nickname_color": "", "role": 0, "avatar_subscript_url": "", "vipType": 0, "vipStatus": 0 }, "archiveCount": 11 }, "isCollection": 0, "sectionsInfo": null, "playedSectionId": [], "sections": [], "staffData": [], "tags": [{ "tag_id": 28784, "tag_name": "编程", "cover": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Ftag\u002F9c3541ab7e955c3ab6fa44387be10f85e922ad1a.png", "head_cover": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Ftag\u002F48c2ad58b47c20e7b1f9f231ecd2c7e0fce11b6f.jpg", "content": "编程是使用指令操控计算机的过程。操控计算机的指令统称编程语言，并分3大派：机械语言，汇编语言及高级语言。机器语言为低级的2进制码，仅在该机器语言的机器体系上适用，汇器是机械语言的基本翻译，但可读性\u002F兼容性还是很差。高级语言是所有非汇编\u002F机器语言的集合，一般可读性\u002F兼容性更高。高级语言分多类，如：面向过程(Procedure Oriented)，面向对象(Object Oriented),多多重编程范式(Multi-paradigm),函数式(functional)，静态\u002F动态(static\u002Fdynamic)等等。机器语言，汇编语言&amp;大部分高级语言都是图灵等价和图灵完备的，也是说机器语言，汇编语言&amp;大部分高级语言都可以模拟单带图灵机，并单带图灵机可以模拟说机器语言，汇编语言大部分高级语言。非图灵完备的计算机语言为DSL(领域特定语言),只适用特定的场合，如latex，yacc及lex。", "short_content": "", "type": 2, "state": 0, "ctime": 1436866637, "count": { "view": 0, "use": 644942, "atten": 422921 }, "is_atten": 0, "likes": 0, "hates": 0, "attribute": 0, "liked": 0, "hated": 0, "extra_attr": 0, "tag_type": "new_channel", "is_activity": false, "color": "#7659C6", "alpha": 60, "is_season": false, "subscribed_count": 422921, "archive_count": "38.3万", "featured_count": 480, "showDetail": false, "showReport": false, "timeOut": null }, { "tag_id": 31864, "tag_name": "公开课", "cover": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Ftag\u002F6c8937958cafeac01c066b2c7875d030eb99de7f.png", "head_cover": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Ftag\u002F5188bfd32b1650f16c29574a75022a87653e7b06.png", "content": "", "short_content": "", "type": 2, "state": 0, "ctime": 1436866637, "count": { "view": 0, "use": 767692, "atten": 762892 }, "is_atten": 0, "likes": 0, "hates": 0, "attribute": 0, "liked": 0, "hated": 0, "extra_attr": 0, "tag_type": "new_channel", "is_activity": false, "color": "#B07542", "alpha": 60, "is_season": false, "subscribed_count": 762892, "archive_count": "218.2万", "featured_count": 4150, "showDetail": false, "showReport": false, "timeOut": null }, { "tag_id": 268030, "tag_name": "PYTHON", "cover": "", "head_cover": "", "content": "", "short_content": "", "type": 3, "state": 0, "ctime": 1436866637, "count": { "view": 0, "use": 80076, "atten": 3791 }, "is_atten": 0, "likes": 0, "hates": 0, "attribute": 0, "liked": 0, "hated": 0, "extra_attr": 0, "tag_type": "old_channel", "is_activity": false, "color": "", "alpha": 0, "is_season": false, "subscribed_count": 3791, "archive_count": "-", "featured_count": 0, "showDetail": false, "showReport": false, "timeOut": null }, { "tag_id": 66428, "tag_name": "零基础", "cover": "", "head_cover": "", "content": "", "short_content": "", "type": 3, "state": 0, "ctime": 1436866637, "count": { "view": 0, "use": 82413, "atten": 3621 }, "is_atten": 0, "likes": 0, "hates": 0, "attribute": 0, "liked": 0, "hated": 0, "extra_attr": 0, "tag_type": "old_channel", "is_activity": false, "color": "", "alpha": 0, "is_season": false, "subscribed_count": 3621, "archive_count": "-", "featured_count": 0, "showDetail": false, "showReport": false, "timeOut": null }, { "tag_id": 13160, "tag_name": "学习", "cover": "", "head_cover": "", "content": "", "short_content": "", "type": 3, "state": 0, "ctime": 1436866637, "count": { "view": 0, "use": 4632026, "atten": 1658466 }, "is_atten": 1, "likes": 0, "hates": 0, "attribute": 0, "liked": 0, "hated": 0, "extra_attr": 0, "tag_type": "old_channel", "is_activity": false, "color": "", "alpha": 0, "is_season": false, "subscribed_count": 1658466, "archive_count": "-", "featured_count": 0, "showDetail": false, "showReport": false, "timeOut": null }, { "tag_id": 8006108, "tag_name": "PYTHON入门", "cover": "", "head_cover": "", "content": "", "short_content": "", "type": 0, "state": 0, "ctime": 1534145945, "count": { "view": 0, "use": 20394, "atten": 693 }, "is_atten": 0, "likes": 0, "hates": 0, "attribute": 0, "liked": 0, "hated": 0, "extra_attr": 0, "tag_type": "old_channel", "is_activity": false, "color": "", "alpha": 0, "is_season": false, "subscribed_count": 693, "archive_count": "-", "featured_count": 0, "showDetail": false, "showReport": false, "timeOut": null }], "related": [{ "aid": 498988530, "cid": 214159628, "bvid": "BV16K411J7ct", "duration": 390, "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Farchive\u002F68c7d826a7d79ba28ae701dceb9be86ddee8bafe.png", "title": "学习Python对办公真的有用吗？已学习8个月的人的一些建议。", "owner": { "name": "黑侠BlackMask", "mid": 12314938 }, "stat": { "danmaku": 130, "view": 142346 }, "season_id": 0, "season_type": 0 }, { "aid": 25698102, "cid": 43844327, "bvid": "BV11s411V7Dt", "duration": 638, "pic": "http:\u002F\u002Fi2.hdslb.com\u002Fbfs\u002Farchive\u002F987adb61bea2f0463a1d0d5467a8ad397ea2106a.jpg", "title": "Python小技巧：装饰器(Decorator)", "owner": { "name": "正月点灯笼", "mid": 24014925 }, "stat": { "danmaku": 298, "view": 29333 }, "season_id": 0, "season_type": 0 }, { "aid": 712020469, "cid": 234725733, "bvid": "BV1wD4y1o7AS", "duration": 81906, "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Farchive\u002F9974b552950679b49c0e73d10bd55c29fcec35b9.png", "title": "花了2万多买的Python教程全套，现在分享给大家，入门到精通(Python全栈开发教程)", "owner": { "name": "Python_子木", "mid": 612593877 }, "stat": { "danmaku": 89500, "view": 6376543 }, "season_id": 0, "season_type": 0 }, { "aid": 80713480, "cid": 138136807, "bvid": "BV1uJ411s7wy", "duration": 57188, "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Farchive\u002F7a17af04713cac404441787778e4011cacf5a382.jpg", "title": "北理工 嵩天\u002F黄天宇\u002F礼欣 Python语言程序设计", "owner": { "name": "岸芷汀兰香若蔟", "mid": 25024774 }, "stat": { "danmaku": 661, "view": 88684 }, "season_id": 0, "season_type": 0 }, { "aid": 18884233, "cid": 30796852, "bvid": "BV1yW411n7nm", "duration": 2318, "pic": "http:\u002F\u002Fi2.hdslb.com\u002Fbfs\u002Farchive\u002F8f79e1c8a287d067269745d9d29d644b05cf81c5.jpg", "title": "打通你的任督二脉，顿悟Python之面向对象", "owner": { "name": "15112899479", "mid": 92636018 }, "stat": { "danmaku": 266, "view": 12068 }, "season_id": 0, "season_type": 0 }, { "aid": 91004353, "cid": 155400588, "bvid": "BV1Wj411f74E", "duration": 575, "pic": "http:\u002F\u002Fi2.hdslb.com\u002Fbfs\u002Farchive\u002Fcb6eb4b40f0a418e0f4af4c232a6185e911832a1.jpg", "title": "74-Python-面向对象-描述器-概念和作用", "owner": { "name": "咂嘴弄舌的劉敬賓", "mid": 430404973 }, "stat": { "danmaku": 0, "view": 192 }, "season_id": 0, "season_type": 0 }, { "aid": 543304036, "cid": 272629602, "bvid": "BV17i4y1w7s3", "duration": 29915, "pic": "http:\u002F\u002Fi1.hdslb.com\u002Fbfs\u002Farchive\u002F8956d1747ed385516da87da65ea3501c40c69286.png", "title": "【超级干货】Python教程之小白2天学会面向对象（建议收藏）", "owner": { "name": "Python-404", "mid": 1516810300 }, "stat": { "danmaku": 18, "view": 1149 }, "season_id": 0, "season_type": 0 }, { "aid": 94270108, "cid": 160924517, "bvid": "BV1bE411p7Ue", "duration": 17564, "pic": "http:\u002F\u002Fi2.hdslb.com\u002Fbfs\u002Farchive\u002F36a1c142585987906dbf24b5e3b721ce50ffb94e.jpg", "title": "【零基础 Python体验课】第四季 pygame游戏开发", "owner": { "name": "酒坛坛儿", "mid": 49719176 }, "stat": { "danmaku": 110, "view": 9501 }, "season_id": 0, "season_type": 0 }, { "aid": 87882118, "cid": 150146835, "bvid": "BV1V741147QH", "duration": 46922, "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Farchive\u002Fe8b28c2378aac189d84d4a6b77bd870fe8072c5d.jpg", "title": "【慕课】Python语言基础与应用-北京大学-陈斌-字幕校对", "owner": { "name": "chbpku", "mid": 275008758 }, "stat": { "danmaku": 1321, "view": 141771 }, "season_id": 0, "season_type": 0 }, { "aid": 417613923, "cid": 323592914, "bvid": "BV1DV411E7am", "duration": 22369, "pic": "http:\u002F\u002Fi2.hdslb.com\u002Fbfs\u002Farchive\u002F55837d7efb4d700df58c8448e0ea5c38efc28f5b.png", "title": "清华大佬终于把Python整理成了漫画书，让人茅塞顿开~（完整版）", "owner": { "name": "程序员梦梦", "mid": 1731952297 }, "stat": { "danmaku": 31, "view": 95753 }, "season_id": 0, "season_type": 0 }, { "aid": 459489945, "cid": 305065211, "bvid": "BV1G5411K7jv", "duration": 827269, "pic": "http:\u002F\u002Fi2.hdslb.com\u002Fbfs\u002Farchive\u002F87fff61a7dc1dc791ef7389e0e76d43bb02dbd93.png", "title": "（549集）一套搞定爬虫！B站最系统的Python零基础入门到精通教学-哈喽沃德先生超详细讲解-小白必看的保姆级爬虫课程", "owner": { "name": "小叮当被抓去写代码", "mid": 1070178590 }, "stat": { "danmaku": 63, "view": 51101 }, "season_id": 0, "season_type": 0 }, { "aid": 545795962, "cid": 343880570, "bvid": "BV1gq4y1j7EN", "duration": 30536, "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Farchive\u002F91e52f79b4938a83ba3bed5812da929e6f7f325f.png", "title": "面向对象编程自学知识点合集", "owner": { "name": "Python编程星球", "mid": 1237727626 }, "stat": { "danmaku": 3, "view": 147 }, "season_id": 0, "season_type": 0 }, { "aid": 754876093, "cid": 247264059, "bvid": "BV1hk4y1C73S", "duration": 18014, "pic": "http:\u002F\u002Fi1.hdslb.com\u002Fbfs\u002Farchive\u002F2b979e8be0d00f64d5da68b3c9f0c18dd0134320.png", "title": "Python自动化办公--Pandas玩转Excel（全30集）", "owner": { "name": "Python自动化办公社区", "mid": 259649365 }, "stat": { "danmaku": 101, "view": 58096 }, "season_id": 0, "season_type": 0 }, { "aid": 203104832, "cid": 263899235, "bvid": "BV1Ta411c7mt", "duration": 14835, "pic": "http:\u002F\u002Fi2.hdslb.com\u002Fbfs\u002Farchive\u002F2ce0db525366ca39266a1b656c6a3b83edd5d05c.png", "title": "Python之最常用的16种设计模式（完整版）", "owner": { "name": "Python-404", "mid": 1516810300 }, "stat": { "danmaku": 163, "view": 6608 }, "season_id": 0, "season_type": 0 }, { "aid": 332145871, "cid": 310947374, "bvid": "BV1TA411N7rj", "duration": 30521, "pic": "http:\u002F\u002Fi1.hdslb.com\u002Fbfs\u002Farchive\u002F9d61e83b65f35dbee6b7a427a3fe49ca6b838ee0.png", "title": "Python基础入门之面向对象编程", "owner": { "name": "python小强", "mid": 1162704059 }, "stat": { "danmaku": 5, "view": 349 }, "season_id": 0, "season_type": 0 }, { "aid": 756877081, "cid": 305835050, "bvid": "BV1tr4y1A7or", "duration": 30536, "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Farchive\u002F2d26a20f73ee2c9e47ada39d6aad4d98940cc01a.jpg", "title": "零基础Python面向对象编程（完结篇）", "owner": { "name": "IT界老码农", "mid": 1252509002 }, "stat": { "danmaku": 25, "view": 1329 }, "season_id": 0, "season_type": 0 }, { "aid": 92733266, "cid": 159149844, "bvid": "BV1oE411J7X6", "duration": 28085, "pic": "http:\u002F\u002Fi1.hdslb.com\u002Fbfs\u002Farchive\u002Feaf3b64c12476f643555e1d36236ed5f3986bf0c.jpg", "title": "【0基础Python科研实践】", "owner": { "name": "nu11ptr", "mid": 14155294 }, "stat": { "danmaku": 18, "view": 4916 }, "season_id": 0, "season_type": 0 }, { "aid": 627853844, "cid": 258088963, "bvid": "BV1at4y1a7wW", "duration": 94974, "pic": "http:\u002F\u002Fi1.hdslb.com\u002Fbfs\u002Farchive\u002Fddfabe14c5ec0e3306b7a6f61e799353083e6a80.jpg", "title": "Python-嵩天版", "owner": { "name": "高校计算机教学", "mid": 449566429 }, "stat": { "danmaku": 10, "view": 4479 }, "season_id": 0, "season_type": 0 }, { "aid": 88282165, "cid": 150777793, "bvid": "BV1c7411L7dz", "duration": 23620, "pic": "http:\u002F\u002Fi1.hdslb.com\u002Fbfs\u002Farchive\u002F7a6e0967c6a10a608fea0bb35ea5d6134c577fec.jpg", "title": "(北京理工大学系列)python语言程序设计", "owner": { "name": "啥都会一点的研究生", "mid": 46880349 }, "stat": { "danmaku": 25, "view": 4468 }, "season_id": 0, "season_type": 0 }, { "aid": 629298022, "cid": 301346037, "bvid": "BV18b4y1R7Yc", "duration": 2781, "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Farchive\u002F9d7a0ffa364556e910f90388b4d12801e98e317e.png", "title": "Python面向对象-类专题", "owner": { "name": "ABTester", "mid": 306107070 }, "stat": { "danmaku": 3, "view": 1820 }, "season_id": 0, "season_type": 0 }, { "aid": 94351458, "cid": 161055273, "bvid": "BV1PE411W7mN", "duration": 1188261, "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Farchive\u002Fba588b849971672e56c3ae4fe245e31f1a2b158e.jpg", "title": "Python从入门到高手（内部资源-配学习资料）", "owner": { "name": "学IT的小暖", "mid": 491063360 }, "stat": { "danmaku": 537, "view": 80742 }, "season_id": 0, "season_type": 0 }, { "aid": 29837702, "cid": 268052828, "bvid": "BV1hW41197sB", "duration": 126391, "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Farchive\u002Fa00c45b6f32d420d3c0828c22310d074653dd24f.png", "title": "尚硅谷Python零基础入门教程全套完整版(自学Python,资料齐全)", "owner": { "name": "尚硅谷", "mid": 302417610 }, "stat": { "danmaku": 10795, "view": 298902 }, "season_id": 0, "season_type": 0 }, { "aid": 90584138, "cid": 154698515, "bvid": "BV1B7411w7hD", "duration": 272, "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Farchive\u002F14fe2cc47def89a815fce2f0c9ab5c597a9b3395.jpg", "title": "26-Python-面向对象-类、对象、类对象、实例对象、实例的叫法规范", "owner": { "name": "坂元昭二", "mid": 408962697 }, "stat": { "danmaku": 0, "view": 402 }, "season_id": 0, "season_type": 0 }, { "aid": 416180000, "cid": 283428326, "bvid": "BV1BV411t7A7", "duration": 13363, "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Farchive\u002Fd7f733025c4d74676c35dc619f331e2a3fb66305.jpg", "title": "原创卡通IP建模全程：阿牙", "owner": { "name": "南山小木木", "mid": 510358964 }, "stat": { "danmaku": 74, "view": 17547 }, "season_id": 0, "season_type": 0 }, { "aid": 58187617, "cid": 101511495, "bvid": "BV1E4411w7tq", "duration": 46792, "pic": "http:\u002F\u002Fi1.hdslb.com\u002Fbfs\u002Farchive\u002F3e8c390dd51c0425115f37da042f3c5e90cc55bf.jpg", "title": "Python语言基础与应用 北京大学 陈斌", "owner": { "name": "BLGX", "mid": 434173653 }, "stat": { "danmaku": 23, "view": 11289 }, "season_id": 0, "season_type": 0 }, { "aid": 413219041, "cid": 192863563, "bvid": "BV1gV411C7LG", "duration": 1649, "pic": "http:\u002F\u002Fi2.hdslb.com\u002Fbfs\u002Farchive\u002F49147fdce6dff05efb0b539679b2d07893ed4630.png", "title": "带你读Geatpy库官方文档：Geatpy库使用案例讲解", "owner": { "name": "仇不器", "mid": 108879303 }, "stat": { "danmaku": 2, "view": 868 }, "season_id": 0, "season_type": 0 }, { "aid": 93748638, "cid": 160061785, "bvid": "BV1uE411x76i", "duration": 6811, "pic": "http:\u002F\u002Fi1.hdslb.com\u002Fbfs\u002Farchive\u002F67adf762fc14e8076f7874ad898750b21d9c4fe4.jpg", "title": "Python面向对象，从农药到吃鸡，全面掌握Python面向对象", "owner": { "name": "麦叔编程", "mid": 442752399 }, "stat": { "danmaku": 496, "view": 16370 }, "season_id": 0, "season_type": 0 }, { "aid": 14184325, "cid": 23153678, "bvid": "BV1ex411x7Em", "duration": 197388, "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Farchive\u002Ff7890683f44caf6d145802c95a35296d8802deaf.jpg", "title": "黑马程序员Python教程_600集Python从入门到精通教程（懂中文就能学会）", "owner": { "name": "黑马程序员", "mid": 37974444 }, "stat": { "danmaku": 171993, "view": 9320899 }, "season_id": 0, "season_type": 0 }, { "aid": 928375624, "cid": 275196673, "bvid": "BV1PT4y1T7pa", "duration": 71359, "pic": "http:\u002F\u002Fi1.hdslb.com\u002Fbfs\u002Farchive\u002F005643f3eb98601e09506039dc51e3bc930de9c0.jpg", "title": "2021最新Python教程-8天超强极速入门（完整版）", "owner": { "name": "编程老司机", "mid": 394857788 }, "stat": { "danmaku": 290, "view": 87485 }, "season_id": 0, "season_type": 0 }, { "aid": 796919065, "cid": 232133701, "bvid": "BV11y4y1C7iP", "duration": 5637, "pic": "http:\u002F\u002Fi2.hdslb.com\u002Fbfs\u002Farchive\u002F2e222cbe674dfca0dff07d63d17b7b2f0a2c58cf.jpg", "title": "第1天-史上最快Python入门-基础语法", "owner": { "name": "大紧老师", "mid": 481846903 }, "stat": { "danmaku": 12, "view": 3045 }, "season_id": 0, "season_type": 0 }, { "aid": 4050443, "cid": 6534573, "bvid": "BV1xs411Q799", "duration": 108973, "pic": "http:\u002F\u002Fi1.hdslb.com\u002Fbfs\u002Farchive\u002F9a8f816fdadd1b814c5ce51e7ead25319166eb92.jpg", "title": "[小甲鱼]零基础入门学习Python", "owner": { "name": "IT搬運工", "mid": 25560915 }, "stat": { "danmaku": 287858, "view": 15217464 }, "season_id": 0, "season_type": 0 }, { "aid": 412975372, "cid": 182489604, "bvid": "BV1pV411d7sL", "duration": 594, "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Farchive\u002F3684efe9002c03515c8fa38dc1c3c3e69f1807a5.jpg", "title": "什么是面向过程编程,面向对象编程", "owner": { "name": "搜索公众号老卢私塾", "mid": 517682480 }, "stat": { "danmaku": 75, "view": 24323 }, "season_id": 0, "season_type": 0 }, { "aid": 32159340, "cid": 56261745, "bvid": "BV1sW411r7jT", "duration": 277, "pic": "http:\u002F\u002Fi2.hdslb.com\u002Fbfs\u002Farchive\u002Fe4b5ebd873476dfd22e472e68b9b90d765527c4d.jpg", "title": "人工智能（7）：监督学习", "owner": { "name": "马文老师", "mid": 350557670 }, "stat": { "danmaku": 0, "view": 1091 }, "season_id": 0, "season_type": 0 }, { "aid": 54310770, "cid": 94999268, "bvid": "BV154411n79k", "duration": 76024, "pic": "http:\u002F\u002Fi1.hdslb.com\u002Fbfs\u002Farchive\u002F43a32eb81e1a2f80a1a494a79a89b87ed1c172ae.jpg", "title": "PyQt5教程，来自网易云课堂", "owner": { "name": "新建文本文档-1", "mid": 31347925 }, "stat": { "danmaku": 5028, "view": 280967 }, "season_id": 0, "season_type": 0 }, { "aid": 58860400, "cid": 102610553, "bvid": "BV1Mt411L7JR", "duration": 17122, "pic": "http:\u002F\u002Fi2.hdslb.com\u002Fbfs\u002Farchive\u002F15819df37ae46ebb26cee22943e387266c31bc6a.jpg", "title": "Python 基础语法精讲-精通python计划", "owner": { "name": "有趣的拾光Ho", "mid": 95912474 }, "stat": { "danmaku": 1, "view": 2157 }, "season_id": 0, "season_type": 0 }, { "aid": 81939192, "cid": 140209039, "bvid": "BV1UJ411j76c", "duration": 106, "pic": "http:\u002F\u002Fi1.hdslb.com\u002Fbfs\u002Farchive\u002F8fc925b50fddeb8312768114c16f53efdc086403.jpg", "title": "当普通人忘记文件密码 VS 当程序猿忘记文件密码", "owner": { "name": "偶尔有点小迷糊", "mid": 39665558 }, "stat": { "danmaku": 4398, "view": 3551989 }, "season_id": 0, "season_type": 0 }, { "aid": 65157512, "cid": 113090570, "bvid": "BV194411r7a8", "duration": 40866, "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Farchive\u002F30a7575e1a3353f8628959dd68993f06280f58ff.jpg", "title": "Python——包和模块", "owner": { "name": "Leofaith", "mid": 28688276 }, "stat": { "danmaku": 124, "view": 10229 }, "season_id": 0, "season_type": 0 }, { "aid": 544669836, "cid": 313715185, "bvid": "BV1qi4y1K7yu", "duration": 12442, "pic": "http:\u002F\u002Fi1.hdslb.com\u002Fbfs\u002Farchive\u002Ff79a5c434416dbda966461ba036e20551568cc6f.png", "title": "Python游戏（Pygame）四小时开发赛车游戏，面向对象思维训练", "owner": { "name": "IT私塾", "mid": 507961306 }, "stat": { "danmaku": 9, "view": 5120 }, "season_id": 0, "season_type": 0 }, { "aid": 245482487, "cid": 260993271, "bvid": "BV1wv411b75Z", "duration": 232, "pic": "http:\u002F\u002Fi1.hdslb.com\u002Fbfs\u002Farchive\u002F79ee89e3ff8d8015200e0506f36f495dd06da8fc.jpg", "title": "用python实现BMI健康计算", "owner": { "name": "记号笔在此", "mid": 555962342 }, "stat": { "danmaku": 1, "view": 123 }, "season_id": 0, "season_type": 0 }, { "aid": 802032608, "cid": 309568780, "bvid": "BV19y4y1772c", "duration": 36837, "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Farchive\u002Fbaa0225b79f128203261a7102bd2673fe2dace6d.png", "title": "Python精讲教程-全套视频【语法至面向对象】", "owner": { "name": "李恩泽的技术博客", "mid": 284702039 }, "stat": { "danmaku": 0, "view": 427 }, "season_id": 0, "season_type": 0 }], "spec": { "type": 1, "card": { "id": 3838, "type": 1, "title": "“三观不正“能用来评判文学作品吗？ ", "desc": "火遍全网的文学课", "cover": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Ffeed-admin\u002F2a3a0cf4273977eed18cc87d3892a9d842d93f93.jpg", "re_type": 1, "re_value": "https:\u002F\u002Fwww.bilibili.com\u002Fcheese\u002Fplay\u002Fep6978", "person": "", "ctime": 0, "mtime": 0 } }, "isClient": false, "error": {}, "player": "", "playurl": {}, "user": {}, "cidMap": { "840097344": { "aid": 840097344, "bvid": "BV1M54y1d7UB", "cids": { "62": 172940571 } }, "BV1M54y1d7UB": { "aid": 840097344, "bvid": "BV1M54y1d7UB", "cids": { "62": 172940571 } } }, "isRecAutoPlay": true, "autoPlayNextVideo": null, "elecFullInfo": { "code": 0, "data": { "pic": "http:\u002F\u002Fi2.hdslb.com\u002Fbfs\u002Farchive\u002Ff5684768f5b12a3bf568fadc590217707b9efc03.jpg", "show": true } }, "adData": { "2624": [{ "id": 0, "contract_id": "", "pos_num": 1, "name": "", "pic": "https:\u002F\u002Fstatic.hdslb.com\u002Fimages\u002Ftransparent.gif", "litpic": "", "url": "", "style": 0, "agency": "", "label": "", "intro": "", "creative_type": 0, "request_id": "1623511146381q172a25a186a128q5013", "src_id": 2626, "area": 1, "is_ad_loc": true, "ad_cb": "", "title": "", "server_type": 0, "cm_mark": 0, "stime": 0, "mid": "108369482", "activity_type": 0, "epid": 0, "season": null, "room": null, "sub_title": "", "ad_desc": "", "adver_name": "", "null_frame": true }, { "id": 0, "contract_id": "", "pos_num": 2, "name": "", "pic": "https:\u002F\u002Fstatic.hdslb.com\u002Fimages\u002Ftransparent.gif", "litpic": "", "url": "", "style": 0, "agency": "", "label": "", "intro": "", "creative_type": 0, "request_id": "1623511146381q172a25a186a128q5013", "src_id": 2627, "area": 1, "is_ad_loc": true, "ad_cb": "", "title": "", "server_type": 0, "cm_mark": 0, "stime": 0, "mid": "108369482", "activity_type": 0, "epid": 0, "season": null, "room": null, "sub_title": "", "ad_desc": "", "adver_name": "", "null_frame": true }, { "id": 0, "contract_id": "", "pos_num": 3, "name": "", "pic": "https:\u002F\u002Fstatic.hdslb.com\u002Fimages\u002Ftransparent.gif", "litpic": "", "url": "", "style": 0, "agency": "", "label": "", "intro": "", "creative_type": 0, "request_id": "1623511146381q172a25a186a128q5013", "src_id": 2628, "area": 1, "is_ad_loc": true, "ad_cb": "", "title": "", "server_type": 0, "cm_mark": 0, "stime": 0, "mid": "108369482", "activity_type": 0, "epid": 0, "season": null, "room": null, "sub_title": "", "ad_desc": "", "adver_name": "", "null_frame": true }], "2625": [{ "id": 0, "contract_id": "", "pos_num": 1, "name": "", "pic": "https:\u002F\u002Fstatic.hdslb.com\u002Fimages\u002Ftransparent.gif", "litpic": "", "url": "", "style": 0, "agency": "", "label": "", "intro": "", "creative_type": 0, "request_id": "1623511146381q172a25a186a128q5013", "src_id": 2629, "area": 1, "is_ad_loc": true, "ad_cb": "", "title": "", "server_type": 0, "cm_mark": 0, "stime": 0, "mid": "108369482", "activity_type": 0, "epid": 0, "season": null, "room": null, "sub_title": "", "ad_desc": "", "adver_name": "", "null_frame": true }], "3038": [{ "id": 738526, "contract_id": "", "pos_num": 1, "name": "假期相约饭局，投稿赢取大奖！", "pic": "http:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Ffeed-admin\u002F4b28b0043a37ecd14a910a92ad4f51bb451aa831.jpg", "litpic": "", "url": "https:\u002F\u002Fwww.bilibili.com\u002Fblackboard\u002Factivity-q7v2aiG4oT.html", "style": 0, "agency": "", "label": "", "intro": "", "creative_type": 0, "request_id": "1623511146", "src_id": 3039, "area": 1, "is_ad_loc": false, "ad_cb": "", "title": "", "server_type": 0, "cm_mark": 0, "stime": 1623380400, "mid": "108369482", "activity_type": 0, "epid": 0, "season": null, "room": null, "sub_title": "", "ad_desc": "", "adver_name": "", "null_frame": false }], "4330": [{ "id": 0, "contract_id": "", "pos_num": 1, "name": "趁年轻学Java 开发小游戏 赚人生第一桶金", "pic": "https:\u002F\u002Fi0.hdslb.com\u002Fbfs\u002Fsycp\u002Fcreative_img\u002F202105\u002F1d62d2300ec670004dcec9738689a51f.jpg", "litpic": "", "url": "https:\u002F\u002Fwx.kaikeba.com\u002Fxiaoke\u002Fmarket\u002Flanding-page\u002Fv2\u002FWljNB9qAS0LsNqrFvQO?channel=bilibili&track_id=gT4azrDXBc4kcV6Gs5TDqyOp1i0LfPqhyK9l34vmKC9dXRtGWmJ3cAjlFpADv13h1wMPhu60j3_zztUrDsiwSX6gui6z6AmtU7P8mJIhj66vxCgjpB2UR_NZUwTBFEjnQI4qz8XCzBmGRYAD6HWHRewJMD_ct0krj1fGfR8UbgZCQvwIRgkEWXvr1EZppk5q958vJJAaeeKcQUqdSKeQFg", "style": 0, "is_ad": true, "agency": "", "label": "", "intro": "", "creative_type": 0, "request_id": "1623511146381q172a25a186a128q5013", "creative_id": 93614823, "src_id": 4331, "area": 1, "is_ad_loc": true, "ad_cb": "CPicQhDUmNABGOfl0SwglgEoATCD6RY46yFCITE2MjM1MTExNDYzODFxMTcyYTI1YTE4NmExMjhxNTAxM0iNv7iGoC9SBua3seWcs1oG5bm\u002F5LicYgbkuK3lm71oAXAAeICAgIDwGIABA4gBAJIBDDIxOC4xNy40MC4xNZoBAKABowGoAQuyASAtByOqDCA2ogiPyz1lnloIHU\u002Fcae+LGmLwie6oZI9nvboBuQJodHRwczovL3d4LmthaWtlYmEuY29tL3hpYW9rZS9tYXJrZXQvbGFuZGluZy1wYWdlL3YyL1dsak5COXFBUzBMc05xckZ2UU8\u002FY2hhbm5lbD1iaWxpYmlsaSZ0cmFja19pZD1nVDRhenJEWEJjNGtjVjZHczVURHF5T3AxaTBMZlBxaHlLOWwzNHZtS0M5ZFhSdEdXbUozY0FqbEZwQUR2MTNoMXdNUGh1NjBqM196enRVckRzaXdTWDZndWk2ejZBbXRVN1A4bUpJaGo2NnZ4Q2dqcEIyVVJfTlpVd1RCRkVqblFJNHF6OFhDekJtR1JZQUQ2SFdIUmV3Sk1EX2N0MGtyajFmR2ZSOFViZ1pDUXZ3SVJna0VXWHZyMUVacHBrNXE5NTh2SkpBYWVlS2NRVXFkU0tlUUZnwgECMTbSAQDYAccB4AGAlOvcA+gBnJPr3APwAcC8y5AD+AGWAYACAogCz9uEggGSAvsCMzU5NDUzM18xNjIzNDk4OTk3LDIzNzY1ODJfMTYyMzQ5OTAwMCwzNDU2NDk2XzE2MjM0OTkwMDAsMjM3NjU4Ml8xNjIzNDk5NjExLDM0MTEyODJfMTYyMzUwMjE1MCwzNjAzMDU2XzE2MjM1MDMxNDEsMzQ1OTMyNl8xNjIzNTAzMTc2LDM0OTU2NTJfMTYyMzUwMzIyMCwzMTYwMjc4XzE2MjM1MDQwOTAsMzQ1OTMyNl8xNjIzNTA1MjMwLDM1OTQ1MzNfMTYyMzUwNTIzMCwzMzY1NDgzXzE2MjM1MDUyNDQsMzU5NDUzOV8xNjIzNTA1MjQ0LDIzNzY1ODJfMTYyMzUwNTI1MywzNTkyNzE1XzE2MjM1MDUyNTMsMzQ1OTMyNl8xNjIzNTA1MzYyLDM2MDIyMDNfMTYyMzUwNTQyOSwzMzY1NDgzXzE2MjM1MDU1NzIsMzU5Mjk4Nl8xNjIzNTA2ODMwLDM1MzAxNDRfMTYyMzUwNjg0MpgC4uCvAaACyQ+oAvLTA7ACGLgCAMACgJTr3APIAlPqAgD4AscKiAMDkgMAqAMAsAMAuAMAwgMMQlYxTTU0eTFkN1VCyAMX0gNoeyIxIjoiOTM2MTQ4MjMiLCIyIjoiMzczODkxIiwiMyI6IjMzMyIsIjQiOiIzOCIsIjUiOiI0NyIsIjYiOiIzMzNfMTM1MSIsIjciOiI4NDAwOTczNDQiLCI4IjoiMjcyNzA3MDIzIn3gAwLoAwTwAwD6AwN1Z2OCBC51cF9taWQ6MjcyNzA3MDIzLGF2X2lkOjg0MDA5NzM0NCxidl9pZDosY19pZDowiASjAZAEAKAEIqoEBwjXtqkBEASqBAcI1rapARABuAQKwAQE0AQA2AQA4gReeyJwTmFtZSI6ImFsbCIsInBJZCI6NTYsInBzSWQiOjMyNCwiaW5mbyI6WzEsMCwwLDAsNSwxLDAsMCwwLDAsMCwwLDAsMSwwLDEsMCwwLDEsMCwwLDAsMCwwLDBdfQ==", "title": "趁年轻学Java 开发小游戏 赚人生第一桶金", "server_type": 1, "cm_mark": 1, "stime": 0, "mid": "108369482", "activity_type": 0, "epid": 0, "season": null, "room": null, "sub_title": "", "ad_desc": "免费编程课", "adver_name": "开课吧", "null_frame": false }] }, "bofqiParams": {}, "isBack": false, "isForbidNote": true, "insertScripts": ["\u002F\u002Fs1.hdslb.com\u002Fbfs\u002Fstatic\u002Fjinkela\u002Fvideo\u002Fstardust-video.6e342487159cd3ec4dc73648bb29483e4dfce262.js"] }; (function () { var s; (s = document.currentScript || document.scripts[document.scripts.length - 1]).parentNode.removeChild(s); }());</script>
+    <link rel="stylesheet"
+        href="//s1.hdslb.com/bfs/static/jinkela/video/css/stardust-video.0.6e342487159cd3ec4dc73648bb29483e4dfce262.css">
+</head>
+
+<body>
+    <div id="video-page-app"></div><!-- built files will be auto injected -->
+    <div id="app" data-server-rendered="true">
+        <!---->
+        <div id="biliMainHeader" style="height:56px;" data-v-c00a7aa4>
+            <div class="mini-header m-header mini-type" data-v-c00a7aa4>
+                <div class="mini-header__content mini-header--login" data-v-c00a7aa4>
+                    <div class="nav-link" data-v-c00a7aa4>
+                        <ul class="nav-link-ul mini" data-v-c00a7aa4>
+                            <li class="nav-link-item" data-v-c00a7aa4><span data-v-c00a7aa4><a href="//www.bilibili.com"
+                                        tabindex="0" class="link van-popover__reference" data-v-c00a7aa4><svg
+                                            aria-hidden="true" viewBox="0 0 2240 1024" class="navbar_logo"
+                                            data-v-c00a7aa4>
+                                            <path
+                                                d="M2079.810048 913.566175c-10.01309 0-18.554608 0.799768-26.936172-0.159954-16.987063-1.951433-33.974126-1.567544-50.99318-2.079395-10.972811-0.287916-10.652904-0.287916-11.580634-10.90883-2.71921-32.406582-5.694345-64.781173-8.605499-97.155764-2.527266-28.439735-4.926568-56.91146-7.70976-85.319204-2.527266-26.040432-5.566382-52.016883-8.317583-78.025324-2.623238-24.440897-5.054531-48.913784-7.77374-73.322691a12681.114551 12681.114551 0 0 0-10.684895-92.133223c-3.295042-27.128116-6.558094-54.320213-10.205034-81.416339a20559.272961 20559.272961 0 0 0-17.530905-125.979387c-6.398141-44.723002-14.075909-89.22207-22.105576-133.657156-1.439582-7.965685-1.247637-8.253601 6.36615-9.533229 31.670796-5.406429 63.501545-10.01309 95.716183-9.309295 3.486987 0.095972 7.005964 0.159954 10.460959 0.607823 5.662354 0.703795 8.605499 3.454996 8.925406 10.045081 1.119675 22.969325 2.71921 45.938649 4.414717 68.875983 2.71921 37.589076 5.662354 75.178151 8.477537 112.735236 1.791479 24.184971 3.327033 48.305961 5.150503 72.426951 2.911154 38.772732 5.982261 77.513473 8.925406 116.286205 1.791479 23.705111 3.359024 47.474203 5.182494 71.179313 2.783191 34.805885 5.822308 69.579778 8.637489 104.353672 1.791479 22.137566 3.391014 44.307123 5.278466 66.44469 2.783191 32.79047 5.790317 65.580941 8.63749 98.371411 2.143377 25.592562 4.09481 51.249106 6.270178 77.673426zM853.670395 114.918282c4.638652 0 11.644616-0.511851 18.554607 0.127963 8.797443 0.799768 10.49295 3.071107 11.036793 11.900541 2.527266 40.372267 4.894578 80.776524 7.581796 121.180782 2.943145 43.571337 6.174206 87.078693 9.405267 130.586048 2.975135 39.956388 5.950271 79.912775 9.149341 119.869163 3.486987 43.891244 7.357862 87.718507 10.876839 131.609751 2.655228 33.622229 4.926568 67.244457 7.677768 100.898677 2.623238 31.222926 5.694345 62.38187 8.509527 93.572805 2.399303 26.8402 4.830596 53.71239 7.165918 80.58458 0.735786 8.509527 0.127963 9.053369-9.053369 8.829434-24.025018-0.575833-47.922073-3.391014-71.947091-2.71921-5.502401 0.159954-7.101936-2.367312-8.029666-7.581796-1.983424-11.356699-1.663517-22.905343-2.879163-34.390006-3.295042-30.359177-5.182494-60.846317-7.965685-91.269474-2.495275-27.639967-5.502401-55.215953-8.349574-82.82393-2.527266-25.240664-5.02254-50.481329-7.709759-75.753984-2.687219-24.792795-5.534392-49.61758-8.349573-74.442365-2.591247-22.841362-5.118512-45.682723-7.869713-68.524085-4.062819-33.462275-8.093648-66.92455-12.508365-100.322844-4.062819-30.647093-8.66948-61.198214-12.988225-91.813317-5.886289-41.587914-12.508365-83.079855-19.834236-124.411842a1393.96288 1393.96288 0 0 0-5.310457-28.023856c-0.959721-4.702633-0.095972-7.421843 5.278466-8.157629 14.139891-1.887451 28.24779-4.830596 42.451663-6.206196 14.203872-1.311619 28.407744-3.966847 45.106891-2.71921z m1006.075609 403.33878c27.064134 0 27.703949 0.191944 32.054684 24.536869 5.342447 30.03927 9.08536 60.334465 12.636328 90.62966 3.742912 32.278619 7.517815 64.557238 10.972811 96.867848 2.783191 26.008441 5.118512 52.080864 7.74175 78.089305 2.7512 27.256079 5.662354 54.416185 8.509527 81.640274 1.567544 15.387528 3.039117 30.775056 4.798605 46.130593 0.511851 4.446708-0.831758 6.81402-5.214485 7.325871-9.245313 1.055693-18.426645 2.27134-27.639967 3.263052-16.891091 1.82347-33.814173 3.614949-50.737254 5.182493-8.733462 0.799768-9.309294 0.319907-10.940821-8.125638-14.843686-76.617733-29.719363-153.171485-44.435086-229.821208-9.789155-50.961189-19.322384-101.95437-28.919595-152.915559a805.525894 805.525894 0 0 1-3.582959-21.081873c-0.639814-4.030829 0.44787-6.622075 5.022541-7.70976 30.48714-7.133927 61.294186-12.636328 89.733921-14.011927z m-1137.077537 0c28.951586 0 28.823623 0.095972 33.302322 26.360339 6.909992 40.660183 11.804569 81.544301 16.187295 122.556382 4.286754 39.796434 8.957397 79.560878 13.148179 119.357311 2.847173 27.224088 5.086522 54.512157 7.74175 81.704255 1.887451 19.354375 4.126801 38.644769 6.174206 57.967153 0.255926 2.367312 0.383888 4.734624 0.543842 7.133927 0.415879 9.469248 0 10.237025-9.117351 11.164755-18.074747 1.887451-36.181485 3.454996-54.256232 5.246476-6.558094 0.639814-13.084197 1.599535-19.57831 2.239349-8.63749 0.799768-8.925406 0.767777-10.620913-7.965685-6.078234-30.679084-11.964523-61.422149-17.914793-92.101233-14.267853-73.898523-28.69566-147.733065-42.867542-221.631589-5.662354-29.559409-10.524941-59.246781-16.091323-88.838181-1.023702-5.406429-0.255926-7.933694 5.342447-9.245313 30.199223-7.037955 60.590391-12.540355 88.006423-13.947946z m382.128944 309.861946v124.027954c0 1.183656-0.127963 2.399303 0.03199 3.582959 0.607823 6.014252-1.599535 8.66948-7.805731 8.413555-8.157629-0.351898-16.251277-0.127963-24.408906 0.063981-17.019054 0.319907-34.070098-0.351898-51.057162 1.599535-9.405267 1.087684-9.213322 0.511851-10.141052-9.405266-2.783191-31.222926-5.822308-62.413861-8.669481-93.636787-2.623238-28.823623-4.99055-57.711228-7.677768-86.534851-2.71921-29.655381-5.758326-59.214791-8.509527-88.838181-1.887451-19.770254-3.550968-39.508518-5.214485-59.278772-2.175368-25.720525-4.190782-51.409059-6.462122-77.129585-0.959721-10.844848-0.159954-12.380402 10.588923-13.500076a531.877423 531.877423 0 0 1 83.527724-2.591247c6.941982 0.383888 13.851974 1.727498 20.570022 3.359024 8.477536 2.015414 9.405267 3.263052 9.853137 12.124476 0.92773 17.850812 1.855461 35.701624 2.335321 53.584427 0.543842 19.866226 0.095972 39.764443 0.831758 59.63067 1.855461 54.800074 1.567544 109.664129 2.207359 164.528184z m1134.806197 5.630364v117.437869c0 1.983424-0.063981 3.966847 0.03199 5.982262 0.415879 5.150503-1.983424 6.973973-6.878001 6.941982-12.028504-0.095972-24.025018 0-36.021531 0.159954-13.564058 0.127963-27.096125 0.063981-40.628192 1.535553-8.925406 1.023702-8.989387 0.351898-9.789155-8.509527-3.678931-40.660183-7.549806-81.320366-11.260728-122.04453-3.391014-37.525094-6.526103-75.082179-9.981099-112.639265-3.550968-38.740741-7.421843-77.38551-10.90883-116.09426-1.727498-19.386366-3.16708-38.772732-4.606661-58.159097-0.575833-8.445546 0.351898-9.949109 9.885127-10.716886 16.571184-1.311619 33.078387-3.550968 49.777534-3.263051 16.635165 0.319907 33.302322-0.607823 49.841515 2.559256 14.011928 2.687219 14.715723 3.486987 15.547481 18.458635 2.399303 44.051198 1.663517 88.230358 3.231061 132.281556 1.599535 46.89837 0.479861 93.79674 1.759489 146.069549zM1831.498213 305.135c9.789155 0.575833 17.498914 0.095972 25.176683 1.791479 4.894578 1.119675 7.357862 3.327033 7.837723 8.573509 2.303331 25.240664 4.798605 50.51332 7.32587 75.785975 2.015414 20.50604 4.158791 41.012081 6.238188 61.518121l0.191944 1.183656c1.663517 12.924244 1.279628 13.276142-11.292718 13.979937-11.196746 0.607823-22.361501 1.599535-33.558247 2.27134-7.357862 0.44787-9.693183 1.695507-10.90883-9.021378-4.190782-37.813011-9.053369-75.530049-13.692021-113.311069a1185.0316 1185.0316 0 0 0-4.286754-31.798759c-0.92773-5.982261 1.407591-9.277304 7.005964-9.757164 7.357862-0.671805 14.715723-0.863749 19.962198-1.215647z m-1133.398606 0.159954c7.549806 0.415879 15.323547-0.159954 22.937334 1.599535 4.350736 0.991712 6.558094 2.815182 6.973973 7.773741 0.92773 11.83656 2.7512 23.641129 3.870875 35.477689 3.550968 36.309448 6.909992 72.650886 10.237025 108.992324 0.703795 7.901704 0.543842 8.061657-6.84601 8.605499-13.116188 0.959721-26.264367 1.919442-39.412546 2.463284-7.645778 0.351898-8.605499-0.575833-9.56522-8.381564-3.327033-26.744227-6.462122-53.520446-9.661192-80.296664-2.591247-22.073585-4.766615-44.14717-7.901704-66.156773-0.863749-6.078234 1.119675-7.74175 5.982262-8.733462 7.709759-1.567544 15.451509-1.055693 23.385203-1.343609z m399.147998 100.002936c0 23.001315 0.063981 45.97064-0.031991 69.003946 0 10.332997-0.127963 10.396978-10.396978 10.269016a324.289753 324.289753 0 0 1-36.981252-1.919443c-7.933694-0.991712-8.093648-0.735786-8.317583-9.149341-0.799768-28.119828-1.631526-56.239655-2.207359-84.359483-0.415879-19.034468-0.639814-38.004955-1.791479-57.039422-0.607823-9.821146-0.063981-9.917118 9.373276-10.045081 13.915956-0.159954 27.799921 0.479861 41.619904 2.591247 8.317583 1.279628 8.701471 1.279628 8.733462 10.49295 0.063981 23.385204 0.063981 46.770407 0.063981 70.187602h-0.063981z m1135.38203 0.607824c0 23.033306 0.063981 46.034621-0.031991 69.035936 0 9.661192-0.159954 9.725174-9.853137 9.661192a505.32514 505.32514 0 0 1-38.132917-1.791479c-6.302168-0.479861-8.157629-3.135089-7.74175-8.861425 0.063981-0.799768 0-1.599535 0-2.399302-0.959721-44.403095-1.919442-88.7742-2.815182-133.177296-0.031991-2.367312-0.159954-4.734624-0.063982-7.133926 0.127963-8.957397 0.159954-9.181332 9.149341-9.117351 12.380402 0.063981 24.664832 0.703795 37.013243 1.919442 15.067621 1.503563 12.412393 3.359024 12.476375 15.259566 0.063981 22.169557 0.031991 44.403095 0 66.604643z m-1565.593 54.000306c0.287916 12.636328 0.287916 12.604337-11.804569 15.547481-8.221611 2.015414-16.443221 4.222773-24.728813 6.046243-7.069945 1.599535-8.317583 0.703795-9.53323-6.238187-8.445546-47.090314-16.8591-94.212619-25.240664-141.334924-1.695507-9.757164-1.247637-10.364988 8.349573-12.060495 11.804569-2.079396 23.577148-4.126801 35.381717-5.950271 7.517815-1.183656 8.477536-0.767777 9.9811 7.517815 2.975135 16.731138 5.790317 33.526256 7.997675 50.385357 3.423005 26.680246 6.238187 53.456464 9.309295 80.168701 0.255926 1.951433 0.191944 3.966847 0.287916 5.91828z m1064.138735-136.696273c15.451509-2.527266 31.030982-5.086522 46.610454-7.549806 5.598373-0.863749 7.29388 2.655228 8.029666 7.645778 2.655228 18.426645 5.982261 36.725327 8.157629 55.183962 3.19907 26.744227 7.581797 53.360492 8.413555 80.328655 0.063981 2.7512 0.031991 5.566382 0.095972 8.317583 0.159954 4.286754-1.983424 6.494113-5.950271 7.421843-10.556932 2.367312-21.113864 4.734624-31.638805 7.261889-5.054531 1.215647-6.750038-0.92773-7.581796-5.854298-3.16708-18.746552-6.81402-37.397131-10.045081-56.079702-5.47041-30.775056-10.780867-61.582103-16.091323-92.38915-0.127963-1.119675 0-2.303331 0-4.286754z m-710.64147 108.032603c-0.44787 16.37924 0.543842 30.647093-1.695507 44.914947-0.671805 4.510689-1.983424 7.421843-6.846011 7.837722-10.428969 0.863749-20.825947 1.695507-31.190935 2.7512-5.02254 0.543842-6.430131-1.631526-7.261889-6.558094-2.335321-14.55577-1.919442-29.303484-3.327033-43.923234-2.655228-27.607976-3.774903-55.407897-5.566383-83.111846-0.44787-6.750038-1.119675-13.436095-1.663516-20.186134-0.287916-3.774903 1.215647-5.886289 5.246475-6.046242 13.500077-0.543842 26.936172-3.007126 40.50023-2.527266 7.933694 0.287916 8.605499 0.799768 9.181331 8.797443 0.351898 5.534392 0.255926 11.132765 0.383889 16.699147l2.239349 81.352357z m1134.902169-15.867388c0 19.066459 0.223935 38.132918-0.031991 57.199376-0.159954 9.917118-1.279628 10.780867-10.652904 11.644616-9.277304 0.863749-18.490626 1.567544-27.735939 2.559256-5.214485 0.543842-7.645778-0.991712-7.965685-6.973973-1.34361-25.336637-3.16708-50.673273-4.926568-75.977919-1.3756-20.985901-2.943145-41.939811-4.414717-62.893722-0.159954-2.399303-0.031991-4.798605-0.191944-7.165917-0.223935-4.190782 1.055693-6.654066 5.758326-6.81402 13.116188-0.44787 26.136404-2.975135 39.348564-2.495274 8.061657 0.287916 8.18962 0.415879 8.797444 8.797443 1.951433 27.32006 2.143377 54.704102 2.015414 82.120134zM628.295894 756.171918c16.571184 18.234701 17.402942 39.828425 11.932532 62.413861-5.502401 22.585436-18.042756 41.204025-33.23834 57.903171-25.49659 27.895893-56.303637 48.497905-89.062116 65.99682-56.399609 30.135242-116.190232 50.161422-178.572103 61.997982-44.882956 8.477536-90.053828 15.00364-135.704561 17.498914-13.915956 0.767777-27.799921 1.407591-41.715876 1.311619-10.077071 0-20.186133 0.287916-30.231214-0.063981-8.541518-0.319907-9.789155-1.791479-10.49295-10.716886-2.591247-32.022693-4.798605-64.077378-7.645778-96.100071-3.327033-37.109215-7.229899-74.18644-10.812858-111.295654-2.623238-26.8402-4.894578-53.744381-7.773741-80.520599-3.327033-31.542833-7.069945-63.021684-10.716885-94.564517-3.327033-29.111539-6.526103-58.28706-10.045081-87.430591-3.934856-32.278619-7.997676-64.493257-12.31642-96.707894a8228.968456 8228.968456 0 0 0-13.212161-92.996973 5984.500754 5984.500754 0 0 0-24.312934-152.627642 3243.825263 3243.825263 0 0 0-23.67312-123.740038c-1.151665-5.502401 0.511851-7.709759 5.342448-9.725174C52.335283 47.609843 98.465876 28.063524 144.724432 8.77313c8.605499-3.582959 17.434933-6.590085 26.584274-8.285592 6.334159-1.183656 7.965685 0.127963 7.773741 6.494113-0.479861 16.283268 0.191944 32.630517-1.407591 48.849803a161.393095 161.393095 0 0 0-0.639814 13.084197c-0.735786 58.383032-1.439582 116.798056 0.095972 175.213079 1.34361 51.185124 4.030829 102.338258 7.005964 153.491392 2.335321 40.372267 5.694345 80.744534 9.149341 121.052819 3.391014 39.508518 7.517815 78.953054 11.38869 118.461572 0.735786 7.517815 1.407591 8.221611 9.949108 7.069945a381.329176 381.329176 0 0 1 50.833227-4.190782c52.880632-0.127963 104.897514 7.133927 156.338564 19.322384 45.010919 10.684895 88.806191 24.920757 130.777993 44.818975 20.793957 9.853136 40.692174 21.241827 58.830902 35.701624 6.174206 4.862587 11.676606 10.46096 16.891091 16.315259z m1126.840512-9.597211c20.47405 17.946784 27.927883 39.924397 22.105576 67.116494-4.830596 22.425483-15.771416 41.268006-30.359177 58.127107-23.417194 27.096125-51.856929 47.698138-82.631985 64.909136-60.334465 33.782182-124.603787 55.727804-192.168151 68.396122a1151.089465 1151.089465 0 0 1-111.455609 15.547481c-21.177845 1.82347-42.451662 4.09481-66.220754 2.623238h-27.76793c-5.406429 0-8.477536-1.695507-8.925406-8.125638-2.047405-28.087837-4.414717-56.143683-6.941983-84.19953-2.687219-29.623391-5.662354-59.246781-8.477536-88.870172-2.559256-27.224088-4.926568-54.512157-7.709759-81.736245-2.559256-25.656544-5.502401-51.249106-8.285592-76.873659-2.591247-24.057008-5.086522-48.114017-7.933695-72.139035-3.423005-29.111539-7.037955-58.223079-10.652904-87.334618-3.391014-27.160107-6.750038-54.288222-10.364987-81.416338a6133.577429 6133.577429 0 0 0-12.156467-87.142675c-5.694345-37.653057-11.804569-75.178151-17.818822-112.767227a3259.14881 3259.14881 0 0 0-29.111539-158.993792c-0.44787-2.335321-0.671805-4.734624-1.3756-7.005964-1.663517-5.118512-0.063981-7.837722 4.958559-9.821146C1191.012355 47.641834 1238.61452 24.448575 1288.2321 6.149893c6.494113-2.431293 13.052207-5.150503 20.058171-5.854299 6.302168-0.639814 7.901704 0.383888 7.29388 7.101936-3.327033 36.43741-1.407591 73.066765-3.135089 109.536166-1.407591 29.751354-1.247637 59.598679 0.255926 89.382023 0.351898 7.549806 0.639814 15.131602 0.575832 22.649418-0.383888 35.765606 1.503563 71.499221 3.327033 107.200845 2.335321 47.186286 5.758326 94.276601 9.245313 141.398906 2.527266 34.006117 5.822308 67.948253 9.021379 101.922379 1.695507 18.586598 3.518977 37.141206 5.822308 55.631832 1.247637 10.205034 1.759489 10.301006 11.772578 8.957396 17.658868-2.399303 35.349726-4.350736 53.200539-4.09481 62.637796 0.799768 124.027954 10.684895 184.266447 27.863902 40.788146 11.580634 80.488608 26.040432 117.981712 46.290547a253.55831 253.55831 0 0 1 47.218277 32.438573zM308.676783 922.811488c23.161269-11.068783 135.608589-98.947243 144.533995-113.279078-54.576139-23.513166-109.344222-45.362816-168.239105-63.24562l23.70511 176.524698z m1277.196815-107.520752c2.879163-3.103098 2.559256-5.502401-1.343609-7.229899-7.773741-3.550968-15.4835-7.325871-23.353213-10.556932-42.003793-17.179007-84.19953-33.814173-127.482951-47.37823-3.774903-1.151665-7.645778-3.774903-12.476374-1.535554l23.321222 173.45359c3.454996 0.767777 4.798605-0.831758 6.33416-1.919442 39.316574-28.855614 78.889073-57.35933 116.638102-88.390312 6.36615-5.182494 12.668318-10.396978 18.362663-16.443221z"
+                                                fill="#00a1d6"></path>
+                                        </svg>
+                                        主站
+                                        <svg aria-hidden="true" viewBox="0 0 1024 1024" class="navbar_pullup"
+                                            data-v-c00a7aa4>
+                                            <path
+                                                d="M511.936 455.808l214.976 214.976a48 48 0 1 0 67.904-67.904L545.92 353.984a48 48 0 0 0-67.904 0L229.12 602.88a48 48 0 1 0 67.904 67.904l214.912-214.976z"
+                                                fill="#999"></path>
+                                        </svg></a></span></li>
+                            <li class="nav-link-item" data-v-c00a7aa4><a href="//www.bilibili.com/anime/"
+                                    target="_blank" class="link" data-v-c00a7aa4>番剧</a></li>
+                            <li class="nav-link-item" data-v-c00a7aa4><span data-v-c00a7aa4><a
+                                        href="//game.bilibili.com" target="_blank" tabindex="0"
+                                        class="link van-popover__reference" data-v-c00a7aa4>游戏中心</a></span></li>
+                            <li class="nav-link-item" data-v-c00a7aa4><span data-v-c00a7aa4><a
+                                        href="//live.bilibili.com" target="_blank" tabindex="0"
+                                        class="link van-popover__reference" data-v-c00a7aa4>直播</a></span></li>
+                            <li class="nav-link-item" data-v-c00a7aa4><a
+                                    href="//show.bilibili.com/platform/home.html?msource=pc_web" target="_blank"
+                                    class="link" data-v-c00a7aa4>会员购</a></li>
+                            <li class="nav-link-item" data-v-c00a7aa4><span data-v-c00a7aa4><a
+                                        href="//manga.bilibili.com?from=bill_top_mnav" target="_blank" tabindex="0"
+                                        class="link van-popover__reference" data-v-c00a7aa4>漫画</a></span></li>
+                            <li class="nav-link-item" data-v-c00a7aa4><a href="//www.bilibili.com/v/game/match/"
+                                    target="_blank" class="link" data-v-c00a7aa4>赛事</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-user-center" data-v-c00a7aa4>
+                        <div data-v-c00a7aa4><span data-v-c00a7aa4><span tabindex="0"
+                                    class="mini-upload van-popover__reference" data-v-c00a7aa4>
+                                    投稿
+                                </span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="v-wrap">
+            <!---->
+            <div class="l-con">
+                <div id="viewbox_report" class="video-info report-wrap-module report-scroll-module">
+                    <h1 title="《Python应用基础》微专业体验课——Python 面向对象语法精讲" class="video-title">
+                        <!----><span class="tit tr-fix">《Python应用基础》微专业体验课——Python 面向对象语法精讲</span>
+                    </h1>
+                    <div class="video-data"><span title="总播放数5534" class="view">5534播放 · </span><span title="历史累计弹幕数5"
+                            class="dm">5弹幕</span><span>2020-04-02 17:08:13</span>
+                        <!---->
+                    </div>
+                </div>
+                <div id="playerWrap" class="player-wrap">
+                    <div id="bilibili-player"></div>
+                </div>
+                <div id="arc_toolbar_report" class="video-toolbar report-wrap-module report-scroll-module">
+                    <div class="ops"><span title="点赞数68" class="like">
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!----><i class="van-icon-videodetails_like" style="color:;"></i>68
+                        </span><span title="投硬币枚数24" class="coin"><canvas width="34" height="34" class="ring-progress"
+                                style="width:34px;height:34px;left:-3px;top:-3px;"></canvas>
+                            <!----><i class="van-icon-videodetails_throw" style="color:;"></i>
+                            24
+                        </span><span title="收藏人数467" class="collect"><canvas width="34" height="34"
+                                class="ring-progress" style="width:34px;height:34px;left:-3px;top:-3px;"></canvas>
+                            <!----><i class="van-icon-videodetails_collec" style="color:;"></i>467
+                        </span><span title="分享" class="share"><i class="van-icon-videodetails_share"></i>24
+                            <!---->
+                        </span></div>
+                    <div class="more"><i class="van-icon-general_moreactions"></i>
+                        <!---->
+                    </div>
+                    <div class="rigth-btn">
+                        <div class="appeal-text">
+                            稿件投诉
+                        </div>
+                        <!---->
+                    </div>
+                </div>
+                <div id="v_desc" class="video-desc report-wrap-module report-scroll-module">
+                    <div class="tip-info">
+                        <!---->
+                    </div>
+                    <div class="desc-info desc-v2 open">
+                        <span>https://mooc.study.163.com/course/2001361005?tid=2403008003&amp;_trace_c_p_k2_=b4db829f6abb456cb0e351f70c05298e#/info
+                            搬运网易云北理嵩天老师免费体验课程，为方便学习。
+                            如有侵权，立删！</span></div>
+                    <!---->
+                    <!---->
+                </div>
+                <div id="v_tag" class="s_tag report-wrap-module report-scroll-module">
+                    <ul class="tag-area clearfix">
+                        <li class="tag">
+                            <div><a href="//www.bilibili.com/v/channel/28784?tab=featured" target="_blank"
+                                    class="tag-link"><img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUCAYAAACJfM0wAAAAAXNSR0IArs4c6QAAAP5JREFUOBGllD0OwjAMhV9yGcTOisRFegwWJJgQS4/RiyCxdkdcJiFuGtX9ceJAJtf5/OQkfjUore5zhHfngB1GtIexLZrdK1dqcpvo3hd43OH9gjMOFlc0+4dUvyhgGHXq3BPwlmVZSOL2JHUuFIX64fiSKOmHvXhF9LFasvB0p6silkj3zlIxzAmv4JpETrhXCImMLEwjhfBA4gp7A7MNyMI0p8bctsXTuMmzLI9bauRvg9QKFPjYca3DFLxBrcOU/OieCocpHUlTIbonvd+CUfHyuDHVX0ISFt3DBDnDY4bMwt5G91Q4TOlIO/xPaxymdOTkvMLAzw5KHwX+Czr/jXvbTvs/AAAAAElFTkSuQmCC"
+                                        width="32" height="32" class="channel-icon"><span
+                                        class="channel-name">编程</span></a>
+                                <!---->
+                            </div>
+                        </li>
+                        <li class="tag">
+                            <div><a href="//www.bilibili.com/v/channel/31864?tab=featured" target="_blank"
+                                    class="tag-link"><img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUCAYAAACJfM0wAAAAAXNSR0IArs4c6QAAAP5JREFUOBGllD0OwjAMhV9yGcTOisRFegwWJJgQS4/RiyCxdkdcJiFuGtX9ceJAJtf5/OQkfjUore5zhHfngB1GtIexLZrdK1dqcpvo3hd43OH9gjMOFlc0+4dUvyhgGHXq3BPwlmVZSOL2JHUuFIX64fiSKOmHvXhF9LFasvB0p6silkj3zlIxzAmv4JpETrhXCImMLEwjhfBA4gp7A7MNyMI0p8bctsXTuMmzLI9bauRvg9QKFPjYca3DFLxBrcOU/OieCocpHUlTIbonvd+CUfHyuDHVX0ISFt3DBDnDY4bMwt5G91Q4TOlIO/xPaxymdOTkvMLAzw5KHwX+Czr/jXvbTvs/AAAAAElFTkSuQmCC"
+                                        width="32" height="32" class="channel-icon"><span
+                                        class="channel-name">公开课</span></a>
+                                <!---->
+                            </div>
+                        </li>
+                        <li class="tag"><a href="//www.bilibili.com/v/knowledge/" target="_blank"
+                                class="tag-link"><span>知识</span></a></li>
+                        <li class="tag"><a href="//www.bilibili.com/v/knowledge/campus/" target="_blank"
+                                class="tag-link"><span>校园学习</span></a></li>
+                        <li class="tag">
+                            <div><a href="//search.bilibili.com/all?keyword=PYTHON&amp;from_source=video_tag"
+                                    target="_blank" class="tag-link">
+                                    PYTHON
+                                </a>
+                                <!---->
+                                <!---->
+                            </div>
+                        </li>
+                        <li class="tag">
+                            <div><a href="//search.bilibili.com/all?keyword=%E9%9B%B6%E5%9F%BA%E7%A1%80&amp;from_source=video_tag"
+                                    target="_blank" class="tag-link">
+                                    零基础
+                                </a>
+                                <!---->
+                                <!---->
+                            </div>
+                        </li>
+                        <li class="tag">
+                            <div><a href="//search.bilibili.com/all?keyword=%E5%AD%A6%E4%B9%A0&amp;from_source=video_tag"
+                                    target="_blank" class="tag-link">
+                                    学习
+                                </a>
+                                <!---->
+                                <!---->
+                            </div>
+                        </li>
+                        <li class="tag">
+                            <div><a href="//search.bilibili.com/all?keyword=PYTHON%E5%85%A5%E9%97%A8&amp;from_source=video_tag"
+                                    target="_blank" class="tag-link">
+                                    PYTHON入门
+                                </a>
+                                <!---->
+                                <!---->
+                            </div>
+                        </li>
+                        <!---->
+                        <!---->
+                        <!---->
+                    </ul>
+                </div>
+                <!----><a target="_blank" data-loc-id="2629" href="javascript:void(0);" data-target-url="" id="bannerAd"
+                    class="ad-report ad-floor report-wrap-module report-scroll-module" data-v-1691b2bc
+                    data-v-8805dc4e></a>
+                <div id="comment" class="comment-m report-wrap-module report-scroll-module">
+                    <div class="common">
+                        <div class="b-head"><span class="b-head-t results"></span><span class="b-head-t">评论</span></div>
+                        <div class="comment"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="r-con">
+                <div id="v_upinfo" class="up-info report-wrap-module report-scroll-module">
+                    <div class="u-face"><a href="//space.bilibili.com/272707023" target="_blank" report-id="head"
+                            class="fa"></a></div>
+                    <div class="up-info_right">
+                        <div class="name" style="line-height:20px;height:20px;">
+                            <!----><a href="//space.bilibili.com/272707023" target="_blank" report-id="name"
+                                class="username" style="color:;">
+                                一个90后半撅儿
+                                <span class="mask"></span></a><a href="//message.bilibili.com/#whisper/mid272707023"
+                                target="_blank" class="message"><i class="van-icon-videodetails_messag"></i>
+                                发消息
+                            </a>
+                        </div>
+                        <div title="A little effort every day, you will make a big differfence." class="desc">
+                            A little effort every day, you will make a big differfence.
+                        </div>
+                        <div class="btn-panel">
+                            <!---->
+                            <div class="default-btn follow-btn"></div>
+                            <!---->
+                            <div class="default-btn follow-btn btn-transition b-gz not-follow" style="display:none;">
+                                <span><i class="van-icon-general_addto_s"></i>
+                                    关注
+                                    <span>3835</span></span>
+                                <!---->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="danmukuBox" class="danmaku-box">
+                    <div class="danmaku-wrap"></div>
+                </div>
+                <div id="slide_ad" class="slide-ad report-wrap-module report-scroll-module" data-v-868d0df8>
+                    <!---->
+                </div><a target="_blank" data-loc-id="4331" href="javascript:void(0);" data-target-url=""
+                    class="ad-report report-wrap-module report-scroll-module" data-v-1691b2bc data-v-2202ce1b>
+                    <div class="vcd" data-v-1691b2bc data-v-2202ce1b>
+                        <div class="cover" data-v-1691b2bc data-v-2202ce1b>
+                            <!---->
+                        </div>
+                        <div class="info" data-v-1691b2bc data-v-2202ce1b>
+                            <div class="title" data-v-1691b2bc data-v-2202ce1b>趁年轻学Java 开发小游戏 赚人生第一桶金 </div>
+                            <div class="rest" data-v-1691b2bc data-v-2202ce1b>
+                                <!----><span class="desc" data-v-1691b2bc data-v-2202ce1b>免费编程课</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div id="multi_page" class="multi-page report-wrap-module report-scroll-module">
+                    <div class="head-con">
+                        <div class="head-left">
+                            <h3>视频选集</h3><span class="cur-page">(62/62)</span>
+                            <div class="range-box"><i class="van-icon-general_viewlist"></i>
+                                <!---->
+                            </div>
+                        </div>
+                        <div class="head-right"><span class="next-button"><span class="txt">自动连播</span><span
+                                    class="switch-button on"></span></span></div>
+                    </div>
+                    <div class="cur-list">
+                        <ul class="list-box">
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                            <li>
+                                <!---->
+                            </li>
+                        </ul>
+                        <!---->
+                    </div>
+                </div>
+                <!---->
+                <div id="reco_list" class="recommend-list report-wrap-module report-scroll-module">
+                    <!---->
+                    <!---->
+                    <div class="rec-list">
+                        <div>
+                            <div class="video-page-special-card" data-v-91571770>
+                                <div class="card-box" data-v-91571770>
+                                    <div class="pic-box" data-v-91571770>
+                                        <div class="pic" data-v-91571770><img src="" alt="“三观不正“能用来评判文学作品吗？ "
+                                                width="168" height="95" data-v-91571770></div>
+                                    </div>
+                                    <div class="info" data-v-91571770><a
+                                            href="https://www.bilibili.com/cheese/play/ep6978"
+                                            title="“三观不正“能用来评判文学作品吗？ " target="_blank" class="title" data-v-91571770>
+                                            “三观不正“能用来评判文学作品吗？
+                                        </a>
+                                        <div class="desc" data-v-91571770>
+                                            火遍全网的文学课
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---->
+                            <!---->
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a href="/video/BV16K411J7ct/?spm_id_from=333.788.videocard.0"><img
+                                                src="" alt="学习Python对办公真的有用吗？已学习8个月的人的一些建议。" width="168"
+                                                height="95"></a><span class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV16K411J7ct/?spm_id_from=333.788.videocard.0"><span
+                                            title="学习Python对办公真的有用吗？已学习8个月的人的一些建议。"
+                                            class="title">学习Python对办公真的有用吗？已学习8个月的人的一些建议。</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/12314938/" target="_blank"
+                                            style="display:;">黑侠BlackMask</a></div>
+                                    <div class="count">
+                                        14.2万 播放 · 130 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a href="/video/BV11s411V7Dt/?spm_id_from=333.788.videocard.1"><img
+                                                src="" alt="Python小技巧：装饰器(Decorator)" width="168" height="95"></a><span
+                                            class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV11s411V7Dt/?spm_id_from=333.788.videocard.1"><span
+                                            title="Python小技巧：装饰器(Decorator)"
+                                            class="title">Python小技巧：装饰器(Decorator)</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/24014925/" target="_blank"
+                                            style="display:;">正月点灯笼</a></div>
+                                    <div class="count">
+                                        2.9万 播放 · 298 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a href="/video/BV1wD4y1o7AS/?spm_id_from=333.788.videocard.2"><img
+                                                src="" alt="花了2万多买的Python教程全套，现在分享给大家，入门到精通(Python全栈开发教程)" width="168"
+                                                height="95"></a><span class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1wD4y1o7AS/?spm_id_from=333.788.videocard.2"><span
+                                            title="花了2万多买的Python教程全套，现在分享给大家，入门到精通(Python全栈开发教程)"
+                                            class="title">花了2万多买的Python教程全套，现在分享给大家，入门到精通(Python全栈开发教程)</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/612593877/" target="_blank"
+                                            style="display:;">Python_子木</a></div>
+                                    <div class="count">
+                                        637.7万 播放 · 8.9万 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a href="/video/BV1uJ411s7wy/?spm_id_from=333.788.videocard.3"><img
+                                                src="" alt="北理工 嵩天/黄天宇/礼欣 Python语言程序设计" width="168"
+                                                height="95"></a><span class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1uJ411s7wy/?spm_id_from=333.788.videocard.3"><span
+                                            title="北理工 嵩天/黄天宇/礼欣 Python语言程序设计" class="title">北理工 嵩天/黄天宇/礼欣
+                                            Python语言程序设计</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/25024774/" target="_blank"
+                                            style="display:;">岸芷汀兰香若蔟</a></div>
+                                    <div class="count">
+                                        8.9万 播放 · 661 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a href="/video/BV1yW411n7nm/?spm_id_from=333.788.videocard.4"><img
+                                                src="" alt="打通你的任督二脉，顿悟Python之面向对象" width="168" height="95"></a><span
+                                            class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1yW411n7nm/?spm_id_from=333.788.videocard.4"><span
+                                            title="打通你的任督二脉，顿悟Python之面向对象"
+                                            class="title">打通你的任督二脉，顿悟Python之面向对象</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/92636018/" target="_blank"
+                                            style="display:;">15112899479</a></div>
+                                    <div class="count">
+                                        1.2万 播放 · 266 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a href="/video/BV1Wj411f74E/?spm_id_from=333.788.videocard.5"><img
+                                                src="" alt="74-Python-面向对象-描述器-概念和作用" width="168" height="95"></a><span
+                                            class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1Wj411f74E/?spm_id_from=333.788.videocard.5"><span
+                                            title="74-Python-面向对象-描述器-概念和作用"
+                                            class="title">74-Python-面向对象-描述器-概念和作用</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/430404973/" target="_blank"
+                                            style="display:;">咂嘴弄舌的劉敬賓</a></div>
+                                    <div class="count">
+                                        192 播放 · 0 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a href="/video/BV17i4y1w7s3/?spm_id_from=333.788.videocard.6"><img
+                                                src="" alt="【超级干货】Python教程之小白2天学会面向对象（建议收藏）" width="168"
+                                                height="95"></a><span class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV17i4y1w7s3/?spm_id_from=333.788.videocard.6"><span
+                                            title="【超级干货】Python教程之小白2天学会面向对象（建议收藏）"
+                                            class="title">【超级干货】Python教程之小白2天学会面向对象（建议收藏）</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/1516810300/" target="_blank"
+                                            style="display:;">Python-404</a></div>
+                                    <div class="count">
+                                        1149 播放 · 18 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a href="/video/BV1bE411p7Ue/?spm_id_from=333.788.videocard.7"><img
+                                                src="" alt="【零基础 Python体验课】第四季 pygame游戏开发" width="168"
+                                                height="95"></a><span class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1bE411p7Ue/?spm_id_from=333.788.videocard.7"><span
+                                            title="【零基础 Python体验课】第四季 pygame游戏开发" class="title">【零基础 Python体验课】第四季
+                                            pygame游戏开发</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/49719176/" target="_blank"
+                                            style="display:;">酒坛坛儿</a></div>
+                                    <div class="count">
+                                        9501 播放 · 110 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a href="/video/BV1V741147QH/?spm_id_from=333.788.videocard.8"><img
+                                                src="" alt="【慕课】Python语言基础与应用-北京大学-陈斌-字幕校对" width="168"
+                                                height="95"></a><span class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1V741147QH/?spm_id_from=333.788.videocard.8"><span
+                                            title="【慕课】Python语言基础与应用-北京大学-陈斌-字幕校对"
+                                            class="title">【慕课】Python语言基础与应用-北京大学-陈斌-字幕校对</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/275008758/" target="_blank"
+                                            style="display:;">chbpku</a></div>
+                                    <div class="count">
+                                        14.2万 播放 · 1321 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a href="/video/BV1DV411E7am/?spm_id_from=333.788.videocard.9"><img
+                                                src="" alt="清华大佬终于把Python整理成了漫画书，让人茅塞顿开~（完整版）" width="168"
+                                                height="95"></a><span class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1DV411E7am/?spm_id_from=333.788.videocard.9"><span
+                                            title="清华大佬终于把Python整理成了漫画书，让人茅塞顿开~（完整版）"
+                                            class="title">清华大佬终于把Python整理成了漫画书，让人茅塞顿开~（完整版）</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/1731952297/" target="_blank"
+                                            style="display:;">程序员梦梦</a></div>
+                                    <div class="count">
+                                        9.6万 播放 · 31 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a
+                                            href="/video/BV1G5411K7jv/?spm_id_from=333.788.videocard.10"><img src=""
+                                                alt="（549集）一套搞定爬虫！B站最系统的Python零基础入门到精通教学-哈喽沃德先生超详细讲解-小白必看的保姆级爬虫课程"
+                                                width="168" height="95"></a><span class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1G5411K7jv/?spm_id_from=333.788.videocard.10"><span
+                                            title="（549集）一套搞定爬虫！B站最系统的Python零基础入门到精通教学-哈喽沃德先生超详细讲解-小白必看的保姆级爬虫课程"
+                                            class="title">（549集）一套搞定爬虫！B站最系统的Python零基础入门到精通教学-哈喽沃德先生超详细讲解-小白必看的保姆级爬虫课程</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/1070178590/" target="_blank"
+                                            style="display:;">小叮当被抓去写代码</a></div>
+                                    <div class="count">
+                                        5.1万 播放 · 63 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a
+                                            href="/video/BV1gq4y1j7EN/?spm_id_from=333.788.videocard.11"><img src=""
+                                                alt="面向对象编程自学知识点合集" width="168" height="95"></a><span
+                                            class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1gq4y1j7EN/?spm_id_from=333.788.videocard.11"><span
+                                            title="面向对象编程自学知识点合集" class="title">面向对象编程自学知识点合集</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/1237727626/" target="_blank"
+                                            style="display:;">Python编程星球</a></div>
+                                    <div class="count">
+                                        147 播放 · 3 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a
+                                            href="/video/BV1hk4y1C73S/?spm_id_from=333.788.videocard.12"><img src=""
+                                                alt="Python自动化办公--Pandas玩转Excel（全30集）" width="168" height="95"></a><span
+                                            class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1hk4y1C73S/?spm_id_from=333.788.videocard.12"><span
+                                            title="Python自动化办公--Pandas玩转Excel（全30集）"
+                                            class="title">Python自动化办公--Pandas玩转Excel（全30集）</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/259649365/" target="_blank"
+                                            style="display:;">Python自动化办公社区</a></div>
+                                    <div class="count">
+                                        5.8万 播放 · 101 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a
+                                            href="/video/BV1Ta411c7mt/?spm_id_from=333.788.videocard.13"><img src=""
+                                                alt="Python之最常用的16种设计模式（完整版）" width="168" height="95"></a><span
+                                            class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1Ta411c7mt/?spm_id_from=333.788.videocard.13"><span
+                                            title="Python之最常用的16种设计模式（完整版）"
+                                            class="title">Python之最常用的16种设计模式（完整版）</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/1516810300/" target="_blank"
+                                            style="display:;">Python-404</a></div>
+                                    <div class="count">
+                                        6608 播放 · 163 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a
+                                            href="/video/BV1TA411N7rj/?spm_id_from=333.788.videocard.14"><img src=""
+                                                alt="Python基础入门之面向对象编程" width="168" height="95"></a><span
+                                            class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1TA411N7rj/?spm_id_from=333.788.videocard.14"><span
+                                            title="Python基础入门之面向对象编程" class="title">Python基础入门之面向对象编程</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/1162704059/" target="_blank"
+                                            style="display:;">python小强</a></div>
+                                    <div class="count">
+                                        349 播放 · 5 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a
+                                            href="/video/BV1tr4y1A7or/?spm_id_from=333.788.videocard.15"><img src=""
+                                                alt="零基础Python面向对象编程（完结篇）" width="168" height="95"></a><span
+                                            class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1tr4y1A7or/?spm_id_from=333.788.videocard.15"><span
+                                            title="零基础Python面向对象编程（完结篇）" class="title">零基础Python面向对象编程（完结篇）</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/1252509002/" target="_blank"
+                                            style="display:;">IT界老码农</a></div>
+                                    <div class="count">
+                                        1329 播放 · 25 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a
+                                            href="/video/BV1oE411J7X6/?spm_id_from=333.788.videocard.16"><img src=""
+                                                alt="【0基础Python科研实践】" width="168" height="95"></a><span
+                                            class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1oE411J7X6/?spm_id_from=333.788.videocard.16"><span
+                                            title="【0基础Python科研实践】" class="title">【0基础Python科研实践】</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/14155294/" target="_blank"
+                                            style="display:;">nu11ptr</a></div>
+                                    <div class="count">
+                                        4916 播放 · 18 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a
+                                            href="/video/BV1at4y1a7wW/?spm_id_from=333.788.videocard.17"><img src=""
+                                                alt="Python-嵩天版" width="168" height="95"></a><span
+                                            class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1at4y1a7wW/?spm_id_from=333.788.videocard.17"><span
+                                            title="Python-嵩天版" class="title">Python-嵩天版</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/449566429/" target="_blank"
+                                            style="display:;">高校计算机教学</a></div>
+                                    <div class="count">
+                                        4479 播放 · 10 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a
+                                            href="/video/BV1c7411L7dz/?spm_id_from=333.788.videocard.18"><img src=""
+                                                alt="(北京理工大学系列)python语言程序设计" width="168" height="95"></a><span
+                                            class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV1c7411L7dz/?spm_id_from=333.788.videocard.18"><span
+                                            title="(北京理工大学系列)python语言程序设计"
+                                            class="title">(北京理工大学系列)python语言程序设计</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/46880349/" target="_blank"
+                                            style="display:;">啥都会一点的研究生</a></div>
+                                    <div class="count">
+                                        4468 播放 · 25 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-page-card">
+                            <div class="card-box">
+                                <div class="pic-box">
+                                    <div class="pic"><a
+                                            href="/video/BV18b4y1R7Yc/?spm_id_from=333.788.videocard.19"><img src=""
+                                                alt="Python面向对象-类专题" width="168" height="95"></a><span
+                                            class="mask-video"></span>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                </div>
+                                <div class="info"><a href="/video/BV18b4y1R7Yc/?spm_id_from=333.788.videocard.19"><span
+                                            title="Python面向对象-类专题" class="title">Python面向对象-类专题</span></a>
+                                    <div class="count up"><a href="//space.bilibili.com/306107070/" target="_blank"
+                                            style="display:;">ABTester</a></div>
+                                    <div class="count">
+                                        1820 播放 · 3 弹幕
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rec-footer" style="display:;">展开</div>
+                </div><a target="_blank" data-loc-id="3039" href="javascript:void(0);" data-target-url=""
+                    id="right-bottom-banner" class="ad-report ad-floor report-wrap-module report-scroll-module"
+                    data-v-1691b2bc data-v-8805dc4e>
+                    <div class="lazy-img" data-v-8805dc4e><img alt="" src=""></div>
+                    <!----><span data-v-1691b2bc>假期相约饭局，投稿赢取大奖！</span>
+                </a>
+                <!---->
+            </div>
+            <!---->
+            <!---->
+            <!---->
+            <div class="float-nav" style="display:none;">
+                <div class="nav-menu">
+                    <div title="返回顶部" class="item backup"><i class="van-icon-general_pullup_s"></i></div>
+                    <div title="点击打开迷你播放器" class="item mini"><span>mini</span><span>OFF</span></div><a
+                        href="//www.bilibili.com/blackboard/help.html#%E5%B8%B8%E8%A7%81%E6%92%AD%E6%94%BE%E9%97%AE%E9%A2%98%E8%87%AA%E6%95%91%E6%96%B9%E6%B3%95"
+                        target="_blank" title="帮助反馈">
+                        <div class="item help"><i class="van-icon-floatwindow_custome"></i></div>
+                    </a>
+                </div>
+            </div>
+            <!---->
+        </div>
+        <div>
+            <script type="text/javascript">
+                function gqs(name) {
+                    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+                    var r = window.location.search.substr(1).match(reg);
+                    if (r != null) {
+                        return unescape(r[2])
+                    }
+                    return null
+                }
+
+                var vd = window.__INITIAL_STATE__ && window.__INITIAL_STATE__.videoData
+                if (vd && vd.aid) {
+                    if (vd.embedPlayer) {
+                        var fp = gqs('p') || gqs('page') || null
+                        var p = fp ? fp - 1 : 0
+                        var playerInfo = {
+                            aid: vd.aid,
+                            bvid: vd.bvid,
+                            cid: (vd.pages[p] && vd.pages[p].cid) || vd.pages[0].cid,
+                            is_stein_gate: vd.rights.is_stein_gate,
+                        }
+                        if (window.performance && window.performance.timing) {
+                            performance.timing.embedPlayer = Date.now()
+                        }
+                        if (vd.ugc_season && !vd.ugc_season.season_type) {
+                            EmbedPlayer("player", "//static.hdslb.com/play.swf", "cid=" + playerInfo.cid + "&aid=" + playerInfo.aid + "&bvid=" + playerInfo.bvid + "&attribute=" + playerInfo.is_stein_gate + "&show_bv=1" + "&isCollection=1")
+                        } else {
+                            EmbedPlayer("player", "//static.hdslb.com/play.swf", "cid=" + playerInfo.cid + "&aid=" + playerInfo.aid + "&bvid=" + playerInfo.bvid + "&attribute=" + playerInfo.is_stein_gate + "&show_bv=1")
+                        }
+                        window.isEmbedPlayer = true
+                    } else if (vd.embed) {
+                        document.querySelector("#bilibili-player").innerHTML = vd.embed
+                    }
+                }
+            </script>
+        </div>
+        <script
+            type="application/ld+json">{"@context":"https://schema.org","@type":"VideoObject","name":"%E3%80%8APython%E5%BA%94%E7%94%A8%E5%9F%BA%E7%A1%80%E3%80%8B%E5%BE%AE%E4%B8%93%E4%B8%9A%E4%BD%93%E9%AA%8C%E8%AF%BE%E2%80%94%E2%80%94Python%20%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AF%AD%E6%B3%95%E7%B2%BE%E8%AE%B2","description":"https://mooc.study.163.com/course/2001361005?tid=2403008003&amp;_trace_c_p_k2_=b4db829f6abb456cb0e351f70c05298e#/info%0A%E6%90%AC%E8%BF%90%E7%BD%91%E6%98%93%E4%BA%91%E5%8C%97%E7%90%86%E5%B5%A9%E5%A4%A9%E8%80%81%E5%B8%88%E5%85%8D%E8%B4%B9%E4%BD%93%E9%AA%8C%E8%AF%BE%E7%A8%8B%EF%BC%8C%E4%B8%BA%E6%96%B9%E4%BE%BF%E5%AD%A6%E4%B9%A0%E3%80%82%0A%E5%A6%82%E6%9C%89%E4%BE%B5%E6%9D%83%EF%BC%8C%E7%AB%8B%E5%88%A0%EF%BC%81","thumbnailUrl":["http://i2.hdslb.com/bfs/archive/f5684768f5b12a3bf568fadc590217707b9efc03.jpg"],"uploadDate":"2021-06-12T15:19:06.422Z","interactionStatistic":{"@type":"InteractionCounter","interactionType":{"@type":"http://schema.org/WatchAction"},"userInteractionCount":5534}}</script>
+    </div>
+    <script type="text/javascript" src="//s1.hdslb.com/bfs/seed/log/report/log-reporter.js" crossorigin></script>
+    <script
+        type="text/javascript">var ad_url = "https://s1.hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js"; function loadScript(e, i) { var n = document.createElement("script"); n.type = "text/javascript", n.src = e, document.body.appendChild(n), n.onload = function () { "function" == typeof i && i() } } function loadLink(e) { var i = document.createElement("link"); i.rel = "stylesheet", i.type = "text/css", i.href = e, document.body.appendChild(i) } if (window.loginInfoCallbacks = [], window.onLoginInfoLoaded = function (e, i) { loginInfoCallbacks.push([e, i]) }, window.__INITIAL_STATE__) { var jsurl = window.__INITIAL_STATE__.insertScripts[0], isBiliPlayer = window.__INITIAL_STATE__.videoData.embedPlayer, isInit = !1; function insertScript() { isInit || (isInit = !0, loadScript(jsurl), loadScript(ad_url)) } if (isBiliPlayer && "hidden" !== document.visibilityState) { window.performance && window.performance.mark && window.performance.mark("PlayerMediaLoading:start"); var timeout = setTimeout(function () { insertScript() }, 2500); window.PlayerMediaLoaded = function () { window.isPlayerMediaLoaded = !0, window.performance && window.performance.mark && window.performance.mark("PlayerMediaLoading:end"), window.performance && window.performance.measure && window.performance.measure("PlayerMediaLoading", "PlayerMediaLoading:start", "PlayerMediaLoading:end"), window.performance && window.performance.timing && (performance.timing.mediaLoaded = Date.now()), insertScript(), clearTimeout(timeout), window.PlayerMediaLoaded = null, window.isWide = !!document.querySelector(".player-mode-widescreen"), setSize() } } else insertScript() } else document.write('<script src="' + ad_url + '"><\/script>')</script>
+    <script
+        type="text/javascript">!function () { try { if (parent != self && (parent.document.domain != document.domain || document.referrer && !/^http(s)?:\/\/[.\w-]+\.bilibili\.com\//i.test(document.referrer))) throw new Error("can't be iframed") } catch (e) { window.open(location.href, "_top") } }()</script>
+    <div style="display:none"><a href="https://www.bilibili.com/v/game/match/">赛事库</a> <a
+            href="https://www.bilibili.com/cheese/">课堂</a> <a
+            href="https://www.bilibili.com/festival/2021bnj">2021拜年纪</a></div>
+</body>
+
+</html>
